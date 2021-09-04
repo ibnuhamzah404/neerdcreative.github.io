@@ -188,7 +188,7 @@ body {
 
 .commentary .headComment {
   font-size: 2em;
-  padding: 0px 0px; }
+padding: 0px 0px 10px 0px; }
   .commentary .headComment span {
     color: #d43539;
     font-size: inherit; }
