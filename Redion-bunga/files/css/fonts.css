@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Conv_GrandHotel-Regular';
+	src: url("GrandHotel-Regular.eot");
+	src: local('☺'), url("GrandHotel-Regular.woff") format('woff'), url("GrandHotel-Regular.ttf") format('truetype'), url("GrandHotel-Regular.svg") format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

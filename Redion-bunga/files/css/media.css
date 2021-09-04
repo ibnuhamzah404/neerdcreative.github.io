@@ -1,0 +1,115 @@
+@media screen and (max-width: 991px) {
+  html * {
+    font-size: 15px; }
+  html body {
+    background: none; }
+    html body div.wrapper div.title {
+      max-width: 620px;
+      width: auto; }
+      html body div.wrapper div.title h1 {
+        vertical-align: middle;
+        font-size: 2.2em; }
+    html body div.wrapper main,
+    html body div.wrapper .commentary,
+    html body div.wrapper .title {
+      padding: 15px; }
+
+  .hide {
+    display: none; }
+
+  div.border {
+    display: none; }
+
+  aside {
+    display: none; }
+
+  div.wrapper header {
+    position: static;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 680px;
+    outline: 2px solid white;
+    outline-offset: -6px; }
+    div.wrapper header .logoWrap {
+      max-height: 120px;
+      display: table;
+      margin: 0 auto; }
+      div.wrapper header .logoWrap .logo {
+        display: inline-block;
+        margin-right: 10px; }
+      div.wrapper header .logoWrap .titleLogo {
+        display: table-cell;
+        margin: 0 auto;
+        vertical-align: middle; }
+        div.wrapper header .logoWrap .titleLogo p {
+          text-align: left;
+          vertical-align: top; }
+        div.wrapper header .logoWrap .titleLogo p:last-child {
+          left: 98px;
+          bottom: 40px; }
+    div.wrapper header nav {
+      padding-bottom: 20px; }
+      div.wrapper header nav ul {
+        text-align: center;
+        max-height: 41px;
+        overflow: hidden; }
+        div.wrapper header nav ul li {
+          display: inline-block;
+          border-bottom: none;
+          padding: 10px; }
+          div.wrapper header nav ul li:nth-child(5), div.wrapper header nav ul li:last-child {
+            display: none; }
+          div.wrapper header nav ul li.active {
+            background-color: inherit; }
+          div.wrapper header nav ul li:not(:nth-child(4)) {
+            border-right: 2px dashed #2c2b2b; }
+  div.wrapper main,
+  div.wrapper .commentary,
+  div.wrapper .title {
+    margin: 0 auto;
+    float: none;
+    width: auto; }
+  div.wrapper .center {
+    display: block;
+    margin: 0 auto;
+    width: 100%; } }
+@media screen and (max-width: 600px) {
+  html * {
+    font-size: 14px; }
+  html body div.wrapper div.title {
+    height: 250px; }
+  html body div.wrapper .cinema {
+    width: inherit;
+    margin: 0 auto; }
+  html body div.wrapper .center {
+    float: none;
+    width: 100%; }
+  html body div.wrapper header div.logoWrap {
+    max-height: 100px; }
+    html body div.wrapper header div.logoWrap:before, html body div.wrapper header div.logoWrap:after {
+      height: 120px;
+      width: 20%; }
+    html body div.wrapper header div.logoWrap div.logo {
+      width: 80px;
+      height: 80px; }
+    html body div.wrapper header div.logoWrap span {
+      left: 76px !important;
+      bottom: 30px !important; } }
+@media screen and (max-width: 420px) {
+  section.commentary div.headComment {
+    font-size: 1.8em; }
+  section.commentary div.fillComment {
+    margin: 60px 0 0px 0 !important; }
+
+  .floatLeft,
+  .floatRight {
+    float: none !important;
+    margin: 0 auto !important;
+    display: block;
+    max-width: 100%;     max-height: 330px;}
+
+  section.commentary div.comment {
+    padding: 10px; } }
+
+/*# sourceMappingURL=media.css.map */
