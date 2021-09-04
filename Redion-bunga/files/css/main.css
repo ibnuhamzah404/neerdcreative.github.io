@@ -20,8 +20,8 @@ a {
   font-weight: bold;
   text-decoration: none; }
   a:hover:not(.btn) {
-    text-decoration: underline;
-    cursor: pointer; }
+ 
+    }
 
 span {
   font-weight: bold; }
