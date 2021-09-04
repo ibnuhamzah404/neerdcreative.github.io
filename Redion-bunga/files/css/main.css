@@ -36,7 +36,7 @@ h1 {
 h2 {
   font-size: 1.5em;
   text-transform: uppercase;
-  padding: 20px 0;
+  padding: 10px 0;
   color: #454444; }
 
 h3 {
@@ -69,7 +69,7 @@ h3 {
   line-height: 50px;
   font-size: 1.4em;
   text-transform: uppercase;
-  margin: 20px auto;
+  margin: 0px auto;
   color: #fff;
   text-decoration: none;
   -moz-transition: all 0.7s ease-out;
@@ -115,7 +115,7 @@ body {
     .wrapper main > p,
     .wrapper .commentary > p,
     .wrapper .title > p {
-      padding: 20px 0; }
+      padding: 5px 0; }
   .wrapper header {
     position: absolute;
     width: 290px;
@@ -188,7 +188,7 @@ body {
 
 .commentary .headComment {
   font-size: 2em;
-  padding: 30px 20px; }
+  padding: 0px 0px; }
   .commentary .headComment span {
     color: #d43539;
     font-size: inherit; }
@@ -329,7 +329,7 @@ footer {
   text-align: center;
   color: #000; }
   footer .copyright {
-    padding: 30px; }
+    padding: 0px; }
     footer .copyright span {
       font-weight: normal; }
 
