@@ -1,0 +1,24 @@
+.order_block {
+    position: relative
+}
+
+#orderFormBorder {
+    margin: auto
+}
+
+#buyForm,
+#buyForm>div {
+    width: 100%
+}
+
+#buyForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start
+}
+
+#buyForm button.submit-form {
+    text-transform: uppercase;
+    font-weight: 700;
+}
