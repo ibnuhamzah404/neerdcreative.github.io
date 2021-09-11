@@ -152,7 +152,9 @@ a {
 .SvgIcon--meduzaLogo {
     margin-top: -2px;
     height: 45px;
-    width: 100px
+    width: fit-content;
+    display: flex;
+    align-items: center;
 }
 
 .Menu {
@@ -233,7 +235,7 @@ a {
     z-index: 2;
     top: 0;
     left: 0;
-    width: 100px;
+    width: fit-content;
     height: 100%;
     display: inline-block;
     background-repeat: no-repeat;
