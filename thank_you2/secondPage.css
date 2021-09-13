@@ -161,7 +161,8 @@ ul {
     /*background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(224, 31, 38, 1) 50%, rgba(224, 31, 38, 1) 100%); !* Chrome10-25,Safari5.1-6 *!*/
     /*background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(224, 31, 38, 1) 50%, rgba(224, 31, 38, 1) 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!*/
     /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e01f26', GradientType=1); !* IE6-9 *!*/
-    background: #b58dc1;
+   
+    background: white;
     padding: 26px 20px;
     font-size: 30px;
     border-radius: 100px;
@@ -482,7 +483,7 @@ ul {
     line-height: 17px;
     color: #ffffff;
 
-    background: blue;
+    background: #0A85D3;
 }
 
 .hidden-window__item-sale:after {
@@ -731,7 +732,7 @@ ul {
 .hidden-window .bx-bx > li[data-value="3"] .inner-block__description-result,
 .hidden-window .bx-bx > li[data-value="5"] .inner-block__description-result,
 .hidden-window .bx-bx > li[data-value="7"] .inner-block__description-result {
-    /* margin-left: 10px; */
+    font-size: 14px !important;
 }
 
 .inner-block__description-text {
@@ -1460,11 +1461,11 @@ ul {
 
 @media screen and (max-width: 1023px) {
     .hero {
-        left: 58px;
-        top: 58px;
+        left: 80px;
+    top: 80px;
         background: url("hero-heart_mob.png") center no-repeat;
-        width: 164px;
-        height: 165px;
+      width: 106px;
+    height: 106px;
         background-size: cover;
         transform: none;
         -webkit-transform: none;
@@ -1497,7 +1498,7 @@ ul {
     .hidden-window .bx-bx > li[data-value="1"] .h-w-item-prod img {
         margin-top: 0;
         margin-left: 20px;
-        width: 90px;
+        width: 65px;
           left: auto;
     }
 
@@ -1585,7 +1586,7 @@ ul {
         -webkit-background-size: cover;
         background-size: cover;
         width: 75%;
-        margin: 0 auto 160px;
+        margin: 0 auto 118px;
         padding: 21px 20px;
 
     }
@@ -1646,7 +1647,7 @@ ul {
 
     .inner-block__description-result {
         float: right;
-        width: 132px;
+        width: 60%;
         padding: 10px;
 
         font-size: 14px;
@@ -1702,7 +1703,7 @@ ul {
        
      
         text-align: left;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 15px;
         min-height: 42px;
         margin-bottom: 0;
@@ -1748,11 +1749,11 @@ ul {
         display: block;
         width: 260px;
         margin: auto;
-      padding : 25px 10px;
+ 
      
         font-weight: 700;
         font-size: 18px;
-        line-height: 18px;
+      
         height : 60px;
         text-align: center;
         color: #959595;
@@ -2403,6 +2404,7 @@ ul {
 
     .hidden-window .mobile-balance span {
         font-size: 26px;
+        vertical-align: middle;
     }
 
     .hidden-window .wrap {

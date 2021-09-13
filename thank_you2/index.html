@@ -890,7 +890,7 @@
                   <div class="second-page__header-inner">
                      <div class="hero"></div>
                      <div class="logo">
-                        <h3 style="color : white; font-weight: bold;">DIABETANOL</h3>
+                        <h3 style="color :  #0A85D3; font-weight: bold;">DIABETANOL</h3>
                      </div>
                      <ul class="stamp-list">
                         <li>
@@ -938,7 +938,7 @@
                                           <div class="inner-block__description-tagline"> Meringankan sering buang air kecil dan terutama pada malam hari (polyuria), sering haus (polydipsia).
 
  </div>
-                                          <div class="inner-block__description-result">  MMenghilangkan tanda-tanda pertama diabetes.</div>
+                                          <div class="inner-block__description-result">  Menghilangkan tanda-tanda pertama diabetes.</div>
                                           <div class="clearfix"></div>
                                           <p class="inner-block__description-text"> 
 Ditujukan untuk penggunaan selama 5 hari  </p>
@@ -957,7 +957,7 @@ Ditujukan untuk penggunaan selama 5 hari  </p>
                                           </div>
                                           <div class=""></div>
                                           <div class="mobile-confirmation">
-                                             <button class="mobile-confirmation__button" onclick="window.open('https://wa.me/6285210128727?text=Halo...Saya%20tertarik%20dengan%20obat%20Diabetanol...', '_blank');">   Pilih paket ini
+                                             <button class="mobile-confirmation__button">   Pilih paket ini
                                              </button>
                                           </div>
                                        </div>
@@ -1021,7 +1021,8 @@ Ditujukan untuk penggunaan selama 5 hari  </p>
                                           <div class=""></div>
                                           <div class="mobile-confirmation">
 
-                                             <button class="mobile-confirmation__button active" value="" onclick="window.open('https://wa.me/6285210128727?text=Halo...Saya%20tertarik%20dengan%20obat%20Diabetanol...', '_blank');" formtarget="_blank" >PESAN SEKARANG</button>
+                                             <button class="mobile-confirmation__button" value="">   Pilih paket ini
+                                             </button>
                                           </div>
                                        </div>
                                     </div>
@@ -1087,7 +1088,7 @@ Menghilangkan rasa kaku atau kesemutan pada kaki, memperbaiki luka yang lama sem
                                           <div class="mobile-confirmation">
                                              <!-- <p class="mobile-confirmation__text">   Pilih paket ini   </p> -->
 
-                                             <button class="mobile-confirmation__button" value="" onclick="window.open('https://wa.me/6285210128727?text=Halo...Saya%20tertarik%20dengan%20obat%20Diabetanol...', '_blank');">   Pilih paket ini
+                                             <button class="mobile-confirmation__button" value="">   Pilih paket ini
                                              </button>
 
                                              
@@ -1156,7 +1157,7 @@ Menghilangkan rasa kaku atau kesemutan pada kaki, memperbaiki luka yang lama sem
                                           <div class=""></div>
                                           Kulit bersih segera setelah penggunaan pertama!
                                           <div class="mobile-confirmation">
-                                             <button class="mobile-confirmation__button" value="" onclick="window.open('https://wa.me/6285210128727?text=Halo...Saya%20tertarik%20dengan%20obat%20Diabetanol...', '_blank');">   Pilih paket ini
+                                             <button class="mobile-confirmation__button" value="">   Pilih paket ini
                                              </button>
                                           </div>
                                        </div>
@@ -1206,6 +1207,27 @@ Menghilangkan rasa kaku atau kesemutan pada kaki, memperbaiki luka yang lama sem
          });
       </script>
       <div class="payment_timeout" style="display:none !important">0</div>
+      <script>
+
+      count = 1;
+            $( "button" ).each(function( index ) {
+
+  $(this).on('click', function(){
+   
+    count +=1;
+    if( $(this).hasClass('active')){
+       $(this).on('click', function(){
+        window.open("https://wa.me/6285210128727?text=Halo...Saya%20tertarik%20dengan%20obat%20Diabetanol...", '_BLANK');
+       })
+
+
+    }
+
+
+  });
+});
+      
+      </script>
       <script>
          console.info('js sp v2.19.19 to 09.08.21 16:14');
          if (typeof adc !== 'object') var adc = {};

@@ -50,8 +50,11 @@
         var $body = $('html, body');
         var currentWidth = window.innerWidth;
         console.warn("Secondpage_VLG");
+       
+
         $toform.on('touchend click', function (e) {
             e.preventDefault();
+
             currentWidth = window.innerWidth;
             var $jsSubmitButton = $secondPage.find('.js_submit');
             var $formElement = $toform.closest('form');
