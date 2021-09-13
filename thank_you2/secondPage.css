@@ -1640,7 +1640,7 @@ ul {
 
     .inner-block__description-tagline {
         width: 100%;
-        font-size: 14px;
+        font-size: 16px;
         text-align: left;
         line-height: 1.23;
     }
@@ -1703,7 +1703,7 @@ ul {
        
      
         text-align: left;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 15px;
         min-height: 42px;
         margin-bottom: 0;
@@ -2113,6 +2113,7 @@ ul {
     .slider-list li:nth-child(4) .hidden-window__item-img .present-block {
       top: 30px;
     left: 65px;
+
     }
 
     .present-block__images img:nth-child(3) {
@@ -2235,7 +2236,7 @@ ul {
 
     .hidden-window__item-img {
         position: absolute;
-        top: 104px;
+        top: 115px;
         left: 0px;
         width: 230px;
         height: 215px;
@@ -2393,7 +2394,7 @@ ul {
     .inner-block__description-price {
         padding: 0;
         vertical-align: middle;
-       
+       width: 100%;
         margin-bottom: 12px;
     }
 
