@@ -482,7 +482,7 @@ ul {
     line-height: 17px;
     color: #ffffff;
 
-    background: #F83143;
+    background: blue;
 }
 
 .hidden-window__item-sale:after {
@@ -490,10 +490,12 @@ ul {
     position: absolute;
     top: 0;
     right: -6px;
-    background: url("tap.png") center no-repeat;
+ 
     width: 7px;
     height: 32px;
 }
+
+
 
 /*.hidden-window__item-sale:after {
     content: "";
@@ -979,7 +981,7 @@ ul {
 }
 
 .slider-list li:last-child {
-    margin-bottom: 0;
+    margin-bottom: 15px;
 }
 
 .second-page__form--pay-delivery {
@@ -1459,10 +1461,10 @@ ul {
 @media screen and (max-width: 1023px) {
     .hero {
         left: 58px;
-        top: 46px;
+        top: 58px;
         background: url("hero-heart_mob.png") center no-repeat;
         width: 164px;
-        height: 129px;
+        height: 165px;
         background-size: cover;
         transform: none;
         -webkit-transform: none;
@@ -1583,7 +1585,7 @@ ul {
         -webkit-background-size: cover;
         background-size: cover;
         width: 75%;
-        margin: 0 auto 90px;
+        margin: 0 auto 160px;
         padding: 21px 20px;
 
     }
@@ -1697,8 +1699,8 @@ ul {
 
     .inner-block__description-text {
         position: relative;
-        margin-top: 60px;
-        padding-bottom: 20px;
+       
+     
         text-align: left;
         font-size: 12px;
         line-height: 15px;
@@ -1733,12 +1735,12 @@ ul {
     }
 
     .second-page__container {
-        max-width: 320px;
+        max-width: 95%;
     }
 
     .mobile-confirmation {
         display: block;
-        margin-bottom: -20px;
+        margin-bottom: -30px;
     }
 
     .mobile-confirmation__button {
@@ -1746,11 +1748,12 @@ ul {
         display: block;
         width: 260px;
         margin: auto;
-        padding: 10px;
-        padding-left: 15px;
+      padding : 25px 10px;
+     
         font-weight: 700;
         font-size: 18px;
         line-height: 18px;
+        height : 60px;
         text-align: center;
         color: #959595;
         background: #ebebeb;
@@ -2238,6 +2241,10 @@ ul {
         margin: 0 auto;
     }
 
+    .clearfix{
+        height: 160px;
+    }
+
     .hidden-window .bx-bx > li[data-value="3"] .hidden-window__item-img {
         top: 72px;
     }
@@ -2324,8 +2331,8 @@ ul {
     }
 
     .slider-list li.last-item .hidden-window__item-img .present-block {
-        top: 65px;
-        left: 45px;
+        top: 30px;
+        left: 70px;
     }
 
     .slider-list li:nth-child(4) .present-block__images:before {
@@ -2340,7 +2347,7 @@ ul {
     }
     .slider-list li:nth-child(3) .hidden-window__item-img .present-block {
            left: 70px;
-    top: 65px !important;    }
+    top: 25px !important;    }
 
     .slider-list li.last-item .present-block__text {
         /* top: 60px; */
@@ -2349,7 +2356,7 @@ ul {
     .inner-block__description-result {
         margin: 5px auto;
         padding: 7px 10px;
-        min-height: 100px;
+        min-height: fit-content;
     }
 
     .hidden-window .bx-bx > li[data-value="3"] .inner-block__description-result,
@@ -2412,7 +2419,7 @@ ul {
     position: relative;
 
     padding: 10px 0;
-    padding-left: 10px;
+    padding-left: 30px;
 
     color: #ffffff;
 
@@ -2424,11 +2431,11 @@ ul {
     content: "";
     position: absolute;
     top: 7px;
-    left: 4px;
+    left: 10px;
 
     display: block;
-    width: 23px;
-    height: 24px;
+    width: 50px;
+    height: 45px;
 
     background: url("check2.png") no-repeat center;
 }
