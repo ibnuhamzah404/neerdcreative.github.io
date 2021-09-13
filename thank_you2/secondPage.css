@@ -2392,7 +2392,7 @@ ul {
     .inner-block__description-price {
         padding: 0;
         vertical-align: middle;
-       
+        width : 90%;
         margin-bottom: 12px;
     }
 
