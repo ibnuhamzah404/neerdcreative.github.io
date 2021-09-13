@@ -1640,7 +1640,7 @@ ul {
 
     .inner-block__description-tagline {
         width: 100%;
-        font-size: 16px;
+        font-size: 14px;
         text-align: left;
         line-height: 1.23;
     }
@@ -1703,7 +1703,7 @@ ul {
        
      
         text-align: left;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 15px;
         min-height: 42px;
         margin-bottom: 0;
@@ -2387,12 +2387,13 @@ ul {
         margin-right: 15px;
         margin-top: 13px;
         margin-bottom: 5px;
+        width: 100%;
     }
 
     .inner-block__description-price {
         padding: 0;
         vertical-align: middle;
-        width : 90%;
+       
         margin-bottom: 12px;
     }
 
