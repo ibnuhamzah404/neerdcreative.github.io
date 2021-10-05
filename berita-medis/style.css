@@ -203,6 +203,14 @@ body.mode-adaptive {
 	.b-top-bar__home {
 		display: none!important;
 	}
+	.b-top-bar{
+		height: 0 !important;
+		padding : 0 !important;
+	}
+
+	.mode-adaptive .b-header{
+		overflow: unset !important;
+	}
 }
 
 .content-right {
@@ -1759,7 +1767,7 @@ a:focus {
 }
 
 #order_form h2 {
-	margin: 25px 0 0 0;
+	margin: 15px 0 0 0;
 	padding: 0;
 	line-height: 32px;
 	border: none;
@@ -1823,7 +1831,7 @@ a:focus {
 		font-size: 16px;
 	}
 	#order_form {
-		padding: 20px 10px;
+		padding: 0px 10px 10px 20px;
 	}
 	#order_form .order_form_pole {
 		padding: 0;
