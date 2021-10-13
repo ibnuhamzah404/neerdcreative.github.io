@@ -1455,7 +1455,7 @@ ul {
 .slider-list li:nth-child(4) .h-w-item-prod img {
     position: relative;
     left: -6px;
-    top: -20px;
+    top: 0px;
 }
 
 .wrapper-bottom {
