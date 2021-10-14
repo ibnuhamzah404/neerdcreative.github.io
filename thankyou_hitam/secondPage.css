@@ -166,7 +166,7 @@ ul {
     /*background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(224, 31, 38, 1) 50%, rgba(224, 31, 38, 1) 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!*/
     /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e01f26', GradientType=1); !* IE6-9 *!*/
    
-    background: black;
+    background: rgb(181, 141, 193);
     padding: 26px 20px;
     font-size: 30px;
     border-radius: 100px;
@@ -2265,6 +2265,7 @@ ul {
     }
 
     .clearfix{
+        align-items: center;
         height: auto;
         min-height: 120px;
         padding: 0 10px;
