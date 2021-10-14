@@ -361,7 +361,7 @@ ul {
 }
 
 .slider-list li:nth-child(5) .present-block__text {
-    left: -15px;
+      left: -32px;
 }
 
 .slider-list li:nth-child(5) .present-block__images img:nth-child(3) {
@@ -1517,7 +1517,7 @@ ul {
      }
 
     .hidden-window .bx-bx > li[data-value="1"] .h-w-item-prod img {
-        margin-top: 20px;
+        margin-top: 45px;
         margin-left: 20px;
         width: 65px;
           left: auto;
@@ -2056,9 +2056,9 @@ ul {
     }
 
     .present-block__images img {
-        max-height: 55px;
-        margin-top: 19px;
-        margin-left: 0px;
+        max-height: 286px;
+    margin-top: 0px;
+    margin-left: -44px;
     }
 
     .present-block__images img:nth-child(2) {
@@ -2359,8 +2359,8 @@ ul {
     }
 
     .slider-list li.last-item .hidden-window__item-img .present-block {
-        top: 115px;
-        left: 85px;
+      top: 101px;
+    left: 84px;
     }
 
     .slider-list li:nth-child(4) .present-block__images:before {
