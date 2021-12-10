@@ -509,9 +509,7 @@ aside .order-form button {
         margin: 0 auto
     }
 
-    .content .comments ul li:nth-child(-n+28) {
-        display: none;
-    }
+  
 }
 
 @media all and (max-width:599px) {
