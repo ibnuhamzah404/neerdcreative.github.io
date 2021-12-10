@@ -1,10 +1,14 @@
-﻿.program_diskon_price_old {
+.program_diskon_price_old {
     margin:  0 10px;
     font-weight: 700;
     font-size: 24px;
     line-height: 24px;
     text-decoration: line-through;
    
+}
+
+.biru-clr{
+    color: #0A99C8 !important;
 }
 
 
@@ -472,7 +476,7 @@ b {
 .product-box {
     float: left;
     width: 100%;
-    border: 4px dashed #ff0000;
+    border: 4px dashed #4aa224;
     padding: 30px 20px 20px;
     margin: 25px 0 40px;
 }
@@ -511,11 +515,14 @@ b {
     width: 100%;
     font-size: 16px;
     line-height: 28px;
-    color: #ff0000;
+    color: #4aa224;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
 }
 
+.green-clr{
+        color: #4aa224 !important;
+}
 .btn-img {
     display: inline-block;
     max-width: 100%;
@@ -1551,23 +1558,29 @@ img {
 }
 
 .btn {
-    background-color: #ffb600;
+    background-color: #0A99C8;
     text-decoration: none;
     padding: 15px;
     margin: 0 auto;
     display: table;
     border-radius: 5px;
-    color: #000;
-    font-size: 18px;
+    color: #fff;
+
+
+
+
+
+    
+        font-size: 21px;
     font-weight: 700;
-    border: 1px solid #ffb600;
+    border: 1px solid #0A99C8;
     box-sizing: border-box;
     transition: color .5s, background .5s, border .5s;
 }
 
 .btn:hover {
     background-color: transparent;
-    border-color:  #ffb600;
+    border-color:  #0A99C8;
     text-decoration: none;
     color: #000;
 }
