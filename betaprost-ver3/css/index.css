@@ -707,9 +707,9 @@ textarea{
 
 }
 .img3{
-    float: left;
-    padding-right: 15px;
-    max-width: 270px !important;
+    width: 100%;
+    
+   
 }
 .img4{
     float: right;
@@ -730,7 +730,7 @@ textarea{
     }
 
     .img3{
-        width: 60%;
+        width: 100%;
         
     }
 
