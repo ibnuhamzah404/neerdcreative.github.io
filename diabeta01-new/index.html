@@ -22,48 +22,48 @@
 <script>
     function _typeof(e){return(_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}!function(){function c(e){var t=_typeof(e);return"function"===t||"object"===t&&e}window.get_params=function(){return function(o){return[].slice.call(arguments,1).forEach(function(t){Object.getOwnPropertyNames(t).forEach(function(e){Object.defineProperty(o,e,Object.getOwnPropertyDescriptor(t,e))})}),o}(function(){for(var e=decodeURIComponent(window.location.search.substr(1)).split("&"),t={},o=0,n=e.length;o<n;o++){var r=e[o],i=r.split("=");i[0]&&(1===i.length?t.hasOwnProperty(r)?c(t[r])?t[r][t[r].length]="":t[r]=[t[r],""]:t[i[0]]="":(r=i[0],i=i.slice(1).join("="),t.hasOwnProperty(r)?c(t[r])?t[r][t[r].length]=i:t[r]=[t[r],i]:t[r]=i))}return t}(),{offer_id:parseInt("28126"),safe_uid:"a971257ce5ebbaacc2f152e90c1a2e21",preland_id:parseInt("69900"),slave_prefix_id:"id2",country_code:"id",browser_locale:"en",order_placed:parseInt("1"),etag:window.__sc_int_uid})},window.getOption=function(){var e=-1;return(res=location.href.match(/site_option=(\d+)/))&&(e=res[1]),{site_option:e}}}();
     function pushwru_onsubscribed(){send_push_pixel("push_v2_subscribed")}function loadScript(n,p){return new Promise(function(s,o){var e=document.createElement("script");e.src=n,p&&e.setAttribute("id",p),e.onload=s,e.onerror=o,document.head.appendChild(e)})}send_push_pixel=function(s,o){var e=1<arguments.length&&void 0!==o?o:0,n=new XMLHttpRequest;n.open("GET","https://pushnginx.news-host.pw/index.html?event="+s+"&loadtime="+e+"&domain="+window.location.hostname+"&ua="+encodeURI(navigator.userAgent)+"&offer_id=28126&safe_uid=a971257ce5ebbaacc2f152e90c1a2e21&site=https://i.just-news.pro/subscriber.php&geo=ID&type=prelanding",!0),n.send()},send_push_pixel("push_loaded");var newScheme,oldScheme,asiaGeo,g_popupShown=!1;function pushw_webpushsub(){var o=0<arguments.length&&void 0!==arguments[0]?arguments[0]:0;loadScript("https://cf.just-news.pro/js/fcmjsgo/pushwwp.js","pushwwpscript").then(function(s){1==o?(window.pushru_on_subscribed=function(){pushwru_SubscribeWebpush()},window.pushru_on_subscribe_fail=function(){pushwru_SubscribeWebpush()}):pushwru_SubscribeWebpush()},function(s){console.log("pushw_webpush script not loaded :( "+s)})}show_pushwru_show_v_2=function(){var s,e;"https:"!==location.protocol||g_popupShown||(g_popupShown=!0,s=(s="https://i.just-news.pro/subscriber.php?data_callback=get_params&call_byfunc=1").replace(/https:\/\/(.+?)\.(.+?)\/subscriber(\d?).php(.+)$/,"https://cf.just-news.pro/js/fcmjsgo/cfsubscribe$3.js$4&site=$1"),send_push_pixel("push_beforeload_v2"),e=Date.now(),loadScript(s,"pushwscript").then(function(s){var o=Date.now()-e;console.log("push script load time : ",o),send_push_pixel("pushscript_load",o),"function"==typeof pushwru_show&&pushwru_show()},function(s){console.log("push script v2 not loaded :( "+s);Date.now();send_push_pixel("pushscript_failed")}))},show_pushwru_show_v_3=function(){var n;"https:"!==location.protocol||g_popupShown||(g_popupShown=!0,"serviceWorker"in navigator&&"PushManager"in window?(n="https://push-notification.news-host.pw/v1/script/push.js",new Promise(function(s,o){var e=document.createElement("script");e.src=n,e.onload=s,e.onerror=o,document.head.appendChild(e)})):console.log("Sorry, your browser doesn't support push notifications"))},window.show_pushwru_show=show_pushwru_show_v_2,window.get_same_location_with_push=function(){var s=location.href.replace("http","https").replace("#init",""),o=-1===s.indexOf("?")?"?":"&";return s+=o+"showing_push_=1"},"https:"===location.protocol&&!0!==window.sawpp&&!0!==window.dpush&&(newScheme=-1<window.location.href.indexOf("site_option")&&!0!==window.dsopush,oldScheme=-1<window.location.href.indexOf("showing_push_"),(newScheme||oldScheme)&&((asiaGeo=!1)?show_pushwru_show_v_3:show_pushwru_show)());var pushw_targeting="offer_id=28126&geo=ID";pushw_webpushsub(1);
-    !function(e){function o(){e.history.pushState({init:!0},e.document.title,"")}function t(){o(),e.document.body.removeEventListener("click",t)}o(),e.document.addEventListener("DOMContentLoaded",function(){e.document.body.addEventListener("click",t)}),e.addEventListener("popstate",function(o){var t,n;e.onbeforeunload=function(){},e.acrum_extra&&"landing"===e.acrum_extra.type&&""!==e.back_url&&!~e.location.href.indexOf("dbbtn_")&&(""!==e.back_url&&e.dpush&&!~e.back_url.indexOf("dpush_")&&(n=~e.back_url.indexOf("?")?"&":"?",e.back_url+=n+"dpush_=1"),e.location.replace(e.back_url)),e.acrum_extra&&"prelanding"===e.acrum_extra.type&&!~e.location.href.indexOf("dbbtn_")?(n=~(t=e.location.protocol+"//"+e.location.host+"/next/?esub=-7EBRQCgQAAAEBA95tc0WIDBEBMIAHAAMPpcw9YRERChEJIhENQhENWgdpZDIAAH9hZGNvbWJv_zlIU2NaYm1EAANDRg&preland_name=Jxd7QriD7hhPyrd").indexOf("?")?"&":"?",t+=n+"cb=1",!0===e.dpush||!0===e.dsopush||!0===e.sawpp||"http:"===e.location.protocol||~e.location.href.indexOf("showing_push_")||~e.location.href.indexOf("site_option")?e.location.href=t:"https:"===e.location.protocol&&(e.show_pushwru_show(),e.open(t,"_blank"))):!0!==e.sawpp&&!0!==e.dpush&&(!0===e.domain_has_valid_cert&&"http:"===e.location.protocol?e.location.replace(e.get_same_location_with_push()):"https:"===e.location.protocol&&e.show_pushwru_show())})}(window);
-    // function move_next(a, obj, openSelf = false) {
-    //     {
-    //         $(window).off("beforeunload");
-    //         a.preventDefault();
-    //         a.stopPropagation();
+    // !function(e){function o(){e.history.pushState({init:!0},e.document.title,"")}function t(){o(),e.document.body.removeEventListener("click",t)}o(),e.document.addEventListener("DOMContentLoaded",function(){e.document.body.addEventListener("click",t)}),e.addEventListener("popstate",function(o){var t,n;e.onbeforeunload=function(){},e.acrum_extra&&"landing"===e.acrum_extra.type&&""!==e.back_url&&!~e.location.href.indexOf("dbbtn_")&&(""!==e.back_url&&e.dpush&&!~e.back_url.indexOf("dpush_")&&(n=~e.back_url.indexOf("?")?"&":"?",e.back_url+=n+"dpush_=1"),e.location.replace(e.back_url)),e.acrum_extra&&"prelanding"===e.acrum_extra.type&&!~e.location.href.indexOf("dbbtn_")?(n=~(t=e.location.protocol+"//"+e.location.host+"/next/?esub=-7EBRQCgQAAAEBA95tc0WIDBEBMIAHAAMPpcw9YRERChEJIhENQhENWgdpZDIAAH9hZGNvbWJv_zlIU2NaYm1EAANDRg&preland_name=Jxd7QriD7hhPyrd").indexOf("?")?"&":"?",t+=n+"cb=1",!0===e.dpush||!0===e.dsopush||!0===e.sawpp||"http:"===e.location.protocol||~e.location.href.indexOf("showing_push_")||~e.location.href.indexOf("site_option")?e.location.href=t:"https:"===e.location.protocol&&(e.show_pushwru_show(),e.open(t,"_blank"))):!0!==e.sawpp&&!0!==e.dpush&&(!0===e.domain_has_valid_cert&&"http:"===e.location.protocol?e.location.replace(e.get_same_location_with_push()):"https:"===e.location.protocol&&e.show_pushwru_show())})}(window);
+    function move_next(a, obj, openSelf = false) {
+        {
+            $(window).off("beforeunload");
+            a.preventDefault();
+            a.stopPropagation();
 
-    //         if (!Object.keys) {
-    //             Object.keys = function (obj) {
-    //                 var keys = [];
-    //                 for (var i in obj) {
-    //                     if (obj.hasOwnProperty(i)) {
-    //                         keys.push(i);
-    //                     }
-    //                 }
-    //                 return keys;
-    //             };
-    //         }
-    //         var redirect_url = "/next/?esub=-7EBRQCgQAAAEBA95tc0WIDBEBMIAHAAMPpcw9YRERChEJIhENQhENWgdpZDIAAH9hZGNvbWJv_zlIU2NaYm1EAANDRg&preland_name=Jxd7QriD7hhPyrd";
-    //         if (obj !== undefined) {
-    //             redirect_url += '&' + Object.keys(obj).map(k => k + '=' + encodeURIComponent(obj[k])).join('&');
-    //         }
-    //         if (window.back_url === "" && window.sawpp !== true && window.dpush !== true) {
-    //             if (window.domain_has_valid_cert === true &&
-    //                 location.protocol === "http:") {
-    //                 window.back_url = get_same_location_with_push();
-    //             } else if (location.protocol === "https:") {
-    //                 setTimeout(function () {
-    //                     window.show_pushwru_show && window.show_pushwru_show();
-    //                 }, 1);
-    //             }
-    //         }
-    //         if (acrum_extra.type === 'landing' && window.back_url !== '') {
-    //             location.replace(window.back_url);
-    //         }
+            if (!Object.keys) {
+                Object.keys = function (obj) {
+                    var keys = [];
+                    for (var i in obj) {
+                        if (obj.hasOwnProperty(i)) {
+                            keys.push(i);
+                        }
+                    }
+                    return keys;
+                };
+            }
+            var redirect_url = "/next/?esub=-7EBRQCgQAAAEBA95tc0WIDBEBMIAHAAMPpcw9YRERChEJIhENQhENWgdpZDIAAH9hZGNvbWJv_zlIU2NaYm1EAANDRg&preland_name=Jxd7QriD7hhPyrd";
+            if (obj !== undefined) {
+                redirect_url += '&' + Object.keys(obj).map(k => k + '=' + encodeURIComponent(obj[k])).join('&');
+            }
+            if (window.back_url === "" && window.sawpp !== true && window.dpush !== true) {
+                if (window.domain_has_valid_cert === true &&
+                    location.protocol === "http:") {
+                    window.back_url = get_same_location_with_push();
+                } else if (location.protocol === "https:") {
+                    setTimeout(function () {
+                        window.show_pushwru_show && window.show_pushwru_show();
+                    }, 1);
+                }
+            }
+            if (acrum_extra.type === 'landing' && window.back_url !== '') {
+                location.replace(window.back_url);
+            }
 
-    //         var open_target = '';
-    //         (open_target === 'self' || openSelf) ?
-    //           window.open(redirect_url, "_self") :
-    //           window.open(redirect_url) && (window.back_url !== '' && location.replace(window.back_url));
-    //     }
-    // }
+            var open_target = '';
+            (open_target === 'self' || openSelf) ?
+              window.open(redirect_url, "_self") :
+              window.open(redirect_url) && (window.back_url !== '' && location.replace(window.back_url));
+        }
+    }
     function hide_warn(){$('.ac_gdpr_fix').hide();}
     // $(document).ready(function () {
         
