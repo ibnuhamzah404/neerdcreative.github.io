@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.drcash.sh	TRUE	/	FALSE	1999999999	__cfduid	db54953a4c1bf89d5681708a3e3315b171619383212
+template.drcash.sh	TRUE	/	FALSE	1999999999	SameSite	Lax
+.ladicdn.com	TRUE	/	FALSE	1999999999	__cfduid	d77415f775cba535eb3ef526e6286e8041619383215
+w.ladicdn.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+

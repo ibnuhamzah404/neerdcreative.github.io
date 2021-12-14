@@ -1,0 +1,14 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 26 Apr 2021 03:40:09 at https://template.drcash.sh/a91294f6-391e-488b-b846-6662436b7c46 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://template.drcash.sh/a91294f6-391e-488b-b846-6662436b7c46 -O1 "D:\Deskop\Data Ibnu\project-scraper" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+03:40:38	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://w.ladicdn.com:443/5da6cb07a973800e7e31908d/prostanix-20210219042128.png (from https://template.drcash.sh/a91294f6-391e-488b-b846-6662436b7c46)
+03:40:40	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://w.ladicdn.com:443/5da6cb07a973800e7e31908d/prostanix-20210219042128.png (from https://template.drcash.sh/a91294f6-391e-488b-b846-6662436b7c46)
+03:40:40	Error: 	"error:00000001:lib(0):func(0):reason(1)" (-5) after 2 retries at link https://w.ladicdn.com:443/5da6cb07a973800e7e31908d/prostanix-20210219042128.png (from https://template.drcash.sh/a91294f6-391e-488b-b846-6662436b7c46)
+
+HTTrack Website Copier/3.49-2 mirror complete in 31 seconds : 88 links scanned, 84 files written (9899204 bytes overall) [9083618 bytes received at 293019 bytes/sec], 1076023 bytes transferred using HTTP compression in 6 files, ratio 17%, 6.6 requests per connection
+(1 errors, 2 warnings, 0 messages)
