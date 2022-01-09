@@ -599,7 +599,7 @@ input[placeholder="Ваш телефон"] {
 .uetgue {
     display: block;
     margin: 10px auto 20px auto;
-    max-width: 400px
+    max-width: 400px;
 }
 
 .left_count {
@@ -673,7 +673,7 @@ a.button:hover {
 }
 
 #comments {
-    margin-top: 120px
+    margin-top: 10px;
 }
 
 #comments h2 {
@@ -761,7 +761,7 @@ button::-moz-focus-inner {
 }
 
 #comments {
-    margin-top: 120px
+    margin-top: 10px;
 }
 
 #comments h2 {
@@ -868,11 +868,13 @@ button::-moz-focus-inner {
     }
 }
 
+
 @media(min-width:460px) and (max-width:599px) {
     #order_form {
         padding: 20px !important;
         margin: 0 -26px !important
     }
+   
 }
 
 #order_form div {
