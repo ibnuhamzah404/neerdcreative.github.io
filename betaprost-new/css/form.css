@@ -598,7 +598,7 @@ input[placeholder="Ваш телефон"] {
 
 .uetgue {
     display: block;
-    margin: 10px auto 20px auto;
+    margin: 10px auto 0px auto;
     max-width: 400px;
 }
 
@@ -874,7 +874,9 @@ button::-moz-focus-inner {
         padding: 20px !important;
         margin: 0 -26px !important
     }
-   
+    .uetgue{
+        max-width: 90% !important;
+    }
 }
 
 #order_form div {
