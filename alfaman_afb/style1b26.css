@@ -1,5 +1,5 @@
 #button-wa {
-
+	align-items: center;
     display: flex;
     padding: 20px;
     color: #fff;
@@ -25,18 +25,25 @@ h3.new-price{
 	font-weight: 700;
        font-size: 1.3em;
     line-height: 34px;
-    color: rgb(255, 69, 0);
+       color: #6c6c6c !important;
    
     vertical-align: middle;
    	text-align: center !important;
 }
+
+h3.old-price  a, 
+h2.new-price > a{
+	text-decoration: none;
+}
+
+
 h2.new-price{
 
 
     font-weight: 700;
         font-size: 1.5em;
     line-height: 34px;
-    color: rgb(255, 69, 0);
+    color: black;
   
     vertical-align: middle;
 }
@@ -56,7 +63,7 @@ body {
 }
 
 a {
-	color: rgb(10, 120, 194);
+	color: rgb(72 155 31);
 	outline: medium none;
 	text-decoration: underline;
 }
@@ -933,6 +940,7 @@ label {
 }
 
 .order_button {
+
 	text-transform: uppercase;
 	text-decoration: none;
 	line-height: 1;
