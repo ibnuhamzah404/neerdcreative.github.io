@@ -940,7 +940,6 @@ label {
 }
 
 .order_button {
-
 	text-transform: uppercase;
 	text-decoration: none;
 	line-height: 1;
@@ -955,7 +954,7 @@ label {
 	margin: 15px auto;
 	display: block;
 	width: 100%;
-	max-width: 300px;
+	max-width: 305px !important;
 }
 
 .main-img {
