@@ -1,0 +1,159 @@
+  
+
+  html {
+    font-size: 62.5%;
+}
+
+#page-content-wrapper .spec-des h2 {
+    font-size: 2rem;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#bg-image .spec-des a.preview {
+    background-color: transparent;
+    color: #ed2028;
+    border: 2px solid #ed2028;
+}
+
+#page-content-wrapper .spec-des a.preview {
+    padding: 7px 10px;
+    position: relative;
+    display: inline-block;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    letter-spacing: .1rem;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+#bg-image .spec-des a.preview:hover {
+    background-color: #ed2028;
+    color: #fff;
+}
+
+.adpreview_mobile_box {
+    width: 380px;
+    height: 760px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+#MMasthead_sticky .web_box {
+    overflow: hidden;
+}
+
+.web_box img {
+    max-width: 100%;
+}
+
+.adpreview_mobile_box .web_box {
+    position: absolute;
+    width: 330px;
+    height: 717px;
+    overflow: hidden;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    top: 20px;
+    z-index: 3;
+    border-radius: 15px;
+}
+
+    #bg-image #page-content-wrapper .spec-des h1, #bg-image #page-content-wrapper .spec-des h2 {
+    background-color: #ed2028;
+}
+
+   #bg-image .spec-des, #popbela-style .spec-des, #popmama-style .spec-des, #yummy-style .spec-des {
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 6px rgb(0 0 0 / 15%);
+    box-shadow: 0 0 6px rgb(0 0 0 / 15%);
+    border: 1px solid #e5e5e4;
+    height: 100%;
+    border-radius: 20px;
+}
+#yum th.pkg, #yum thead {
+    background-color: rgb(245, 149, 35);
+    color: white;
+}
+#page-content-wrapper .spec-des {
+    padding: 0;
+    font-family: 'Helvetica Neue Light', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.35rem;
+    color: #3f3f3f;
+}
+
+#page-content-wrapper .spec-des h1 {
+    font-size: 2rem;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#page-content-wrapper .spec-des {
+    padding: 0;
+    font-family: 'Helvetica Neue Light', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.35rem;
+    color: #3f3f3f;
+}
+
+#page-content-wrapper {
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+}
+
+#yummy-style .spec-des a.preview {
+    background-color: transparent;
+    color: #ffb343;
+    border: 2px solid #ffb343;
+}
+.pad20 {
+    padding: 20px;
+} 
+    #yummy-style #page-content-wrapper .spec-des h1, #yummy-style #page-content-wrapper .spec-des h2 {
+    background-color: #f59523;
+}
+
+#page-content-wrapper .spec-des a.preview {
+    padding: 7px 10px;
+    position: relative;
+    display: inline-block;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    letter-spacing: .1rem;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+#page-content-wrapper .spec-des {
+    padding: 0;
+    font-family: 'Helvetica Neue Light', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.35rem;
+    color: #3f3f3f;
+}
+
+#page-content-wrapper .spec-des h4 {
+    font-size: 1.6rem;
+}
+
+#page-content-wrapper .spec-des ul {
+    padding-left: 20px;
+    list-style: disc;
+}
