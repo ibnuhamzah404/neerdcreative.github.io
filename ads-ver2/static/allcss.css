@@ -126,7 +126,7 @@
  	display: block;
  	position: absolute;
 	       top: auto;
-    bottom: 0 !important;
+    bottom: -20px !important;
     left: 0;
     right: 0;
     width: 100%;
