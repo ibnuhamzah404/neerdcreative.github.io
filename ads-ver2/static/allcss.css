@@ -769,7 +769,7 @@ position: absolute;
 	}
 
 	.shaping-wrap {
-		bottom: -100px !important;
+		bottom: 0 !important;
 	}
 }
  @-webkit-keyframes bounce {
