@@ -703,7 +703,7 @@ position: absolute;
  @media screen and (max-width: 480px) {
 	 #home_awal {
 		 
-		 height: 95vh;
+		 height: 80vh;
 		 width: auto;
 		 padding: 10px;
 	}
