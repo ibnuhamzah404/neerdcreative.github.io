@@ -702,11 +702,8 @@ position: absolute;
 }
  @media screen and (max-width: 480px) {
 	 #home_awal {
-		 background-attachment: fixed;
-		 background-repeat: no-repeat;
-		 background-size: cover;
-		 background-position: center;
-		 height: 100vh;
+		 
+		 height: 95vh;
 		 width: auto;
 		 padding: 10px;
 	}
