@@ -125,8 +125,8 @@
  .shaping-wrap {
  	display: block;
  	position: absolute;
-	       top: auto;
-    bottom: 0 !important;
+	   top: auto;
+    bottom: 0 ;
     left: 0;
     right: 0;
     width: 100%;
@@ -764,6 +764,10 @@
 	}
 	 .navbar a.contact-us {
 		 padding: 0.6rem 1rem;
+	}
+
+	.shaping-wrap {
+		bottom: -23px !important;
 	}
 }
  @-webkit-keyframes bounce {
