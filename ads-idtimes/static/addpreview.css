@@ -1,0 +1,1319 @@
+/* Global style */
+
+.takethis {
+    position: relative;
+}
+.spec-des .browse_box {
+    position: relative;
+    display: inline;
+    cursor: pointer;
+    font-size: 12px;
+}
+.spec-des .browse_ad {
+    display: inline-block;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 7px 10px;
+    color: #495057;
+    transition: all 0.5s ease;
+    margin: 5px;
+    text-align: center;
+    background-color: #e9ecef;
+}
+.spec-des input {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    bottom: -10px;
+    opacity: 0;
+    cursor: pointer;
+}
+.spec-des .takess {
+    display: inline-block;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 7px 10px;
+    color: #495057;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+    background-color: #e9ecef;
+}
+
+.preview_box {
+    max-width: 300px;
+    position: relative;
+    display: block
+}
+.preview_box-des input {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    bottom: -10px;
+    opacity: 0;
+    cursor: pointer;
+}
+.custom-file-label {
+    height: 30px;
+}
+.custom-file-label::after {
+    height: 28px;
+}
+.custom-file {
+    height: 30px;
+    margin-bottom: 10px;
+    width: 250px;
+    margin-right: 5px;
+    display: block!important;
+}
+.normal_width {
+    display: inline-block;
+}
+.normal_width .custom-file {
+    width: 200px!important;
+}
+.custom-file-input {
+    height: 30px;
+}
+
+
+.browse_box:hover .browse_ad {
+    color: white!important;
+    background-color: #ed2028!important;
+}
+
+
+#bg-image .takess:hover {
+    color: white!important;
+    background-color: #ed2028!important;
+}
+#popbela-style .takess:hover {
+    color: white!important;
+    background-color: #d41968!important;
+}
+
+.try_ad {
+   background-color: #222;
+   border-radius: 20px;
+   color: white;
+   margin-top: 20px;
+   position: relative;
+   text-align: center;
+}
+.try_ad h1 {
+   font-size: 2rem;
+   padding: 10px;
+   color: white;
+   text-align: center;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   border-bottom: 2px solid #3e3e3e;
+    background-color: #222;
+}
+.try_ad span {
+   font-size: 15px;
+}
+.try_ad .browse_ad {
+   margin-top: 10px;
+   display: inline-block;
+   border: 1px solid #ccc;
+   padding: 0 10px;
+   position: relative;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.try_ad input {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 130px;
+    width: 160px;
+    opacity: 0;
+    cursor: pointer;
+}
+.try_ad input:hover ~ .try_ad .browse_ad {
+background-color: red;
+}
+.try_ad .takess {
+   margin-top: 10px;
+   display: inline-block;
+   border: 1px solid #ccc;
+   padding: 0 10px;
+   position: relative;
+   margin-left: 20px;
+   cursor: pointer;
+   border-radius: 5px;
+}
+.takess img {
+   max-width: 30px;
+}
+.spec-des {
+   height: auto!important;
+}   
+
+/* ======== Ad preview style ======== */
+
+#capthis {
+    display: inline-block;
+}
+
+/* ==== Desktop ==== */
+.adpreview_desktop_box {
+    width: 587px;
+    height: 463px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+.adpreview_desktop_box .web_box {
+    position: absolute;
+    width: 534px;
+    height: 336px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 29px;
+    z-index: 3;
+    scrollbar-width : thin;
+    scrollbar-color: dark;
+}
+.adpreview_desktop_box img.desktop_frame {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: auto;
+    z-index: 2;
+}
+
+
+/* ==== Mobile ==== */
+.adpreview_mobile_box {
+    width: 380px;
+    height: 760px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+.adpreview_mobile_box .web_box {
+    position: absolute;
+    width: 330px;
+    height: 717px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 20px;
+    z-index: 3;
+    scrollbar-width : thin;
+    scrollbar-color: dark;
+    border-radius: 15px;
+}
+.web_box img {
+    max-width: 100%;
+}
+.adpreview_mobile_box img.mobile_frame {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: auto;
+    z-index: 2;
+}
+.adpreview_mobile_box img.topframe {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 9;
+}
+.adpreview_mobile_box img.botframe {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 2px;
+    z-index: 9;
+}
+.adpreview_mobile_box img.img_header {
+    width: 330px;
+    position: absolute;
+    z-index: 4;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.adpreview_mobile_box img.img_share {
+    width: 330px;
+    position: absolute;
+    z-index: 4;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 23px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+
+
+/* ========= Display Ad Desktop ========= */
+
+/* ==== Bottomsticky Desktop ==== */
+
+#Dbottomsticky_idn .web_box {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#Dbottomsticky_idn .banner_ad {
+    left: 0;
+    right: 0;
+    top: 325px;
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    position: relative;
+    z-index: 6;
+}
+#Dbottomsticky_idn .banner_ad img {
+    width: 310px;
+    height: 38px;
+}
+
+
+/* ==== Medium Rectangle ==== */
+
+#Medrec .web_box {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#Medrec .banner_ad {
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    position: absolute;
+    z-index: 6;
+}
+#Medrec .banner_ad._idntimes {
+    right: 90px;
+    top: 120px;  
+}
+#Medrec .banner_ad._fortune {
+    right: 64px;
+    top: 120px;  
+}
+#Medrec .banner_ad._popb {
+    right: 98px;
+    top: 183px;  
+}
+#Medrec .banner_ad._popm {
+    right: 93px;
+    top: 132px;  
+}
+#Medrec .banner_ad img {
+    width: 115px;
+    height: 96px;
+}
+
+
+/* ==== Vertical Billboard Rectangle ==== */
+
+#VerticalBB .web_box {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#VerticalBB .banner_ad {
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    position: absolute;
+    z-index: 6;
+}
+#VerticalBB .banner_ad._idntimes {
+    right: 90px;
+    top: 128px; 
+}
+#VerticalBB .banner_ad._popb {
+    right: 99px;
+    top: 85px; 
+}
+#VerticalBB .banner_ad img {
+    width: 115px;
+    height: 230px;
+}
+
+
+/* ==== In Article All Desktop ==== */
+
+#Dinarticle_idn .web_box {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#Dinarticle_idn .banner_ad {
+    left: 98px;
+    top: 195px;
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    position: absolute;
+    z-index: 6;
+}
+#Dinarticle_idn .banner_ad img {
+    width: 275px;
+    height: 34px;
+}
+
+#Dinarticle_popb .web_box {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#Dinarticle_popb .banner_ad {
+    left: 86px;
+    top: 179px;
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    position: absolute;
+    z-index: 6;
+}
+#Dinarticle_popb .banner_ad img {
+    width: 275px;
+    height: 34px;
+}
+
+
+/* ==== Skinad Desktop IDN ==== */
+
+#DSkinad_idn .web_box {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#DSkinad_idn .banner_ad_L {
+    left: 43px;
+    top: 102px;
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    position: absolute;
+    z-index: 6;
+}
+#DSkinad_idn .banner_ad_R {
+    right: 42px;
+    top: 102px;
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    position: absolute;
+    z-index: 6;
+}
+#DSkinad_idn .banner_ad_L img, #DSkinad_idn .banner_ad_R img {
+    width: 46px;
+    height: 192px;
+}
+
+
+/* ==== Skinad Desktop Popbela ==== */
+
+#DSkinad_popb .web_box {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#DSkinad_popb .banner_ad_L {
+    left: 27px;
+    top: 84px;
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    position: absolute;
+    z-index: 6;
+}
+#DSkinad_popb .banner_ad_R {
+    right: 26px;
+    top: 84px;
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    position: absolute;
+    z-index: 6;
+}
+#DSkinad_popb .banner_ad_L img, #DSkinad_popb .banner_ad_R img {
+    width: 46px;
+    height: 192px;
+}
+
+
+/* ==== Masthead Desktop IDN ==== */
+
+#DMasthead .web_box {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#DMasthead .banner_ad {
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    position: relative;
+    z-index: 6;
+    width: 370px;
+    height: 95px;
+}
+#DMasthead .banner_ad._idntimes {
+    top: 112px;
+}
+#DMasthead .banner_ad._fortune {
+    top: 86px;
+}
+#DMasthead .banner_ad._popb {
+    top: 70px;
+}
+#DMasthead .banner_ad._popm {
+    top: 92px;
+}
+#DMasthead .banner_ad img {
+    width: 370px;
+    height: 95px;
+}
+#DMasthead ._idntimes video {
+    width: 145px;
+    height: 82px;
+    position: absolute;
+    top: 6.5px;
+    left: 8px; 
+}
+#DMasthead ._fortune video {
+    width: 145px;
+    height: 82px;
+    position: absolute;
+    top: 6.5px;
+    left: 8px; 
+}
+#DMasthead ._popb video {
+    width: 120px;
+    height: 82px;
+    position: absolute;
+    top: 6.5px;
+    left: 8px; 
+}
+#DMasthead ._popm video {
+    width: 135px;
+    height: 82px;
+    position: absolute;
+    top: 6.5px;
+    left: 8px; 
+}
+
+
+/* ==== Video in Medium Rectangle ==== */
+
+#videoinbannerMRd .web_box {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#videoinbannerMRd .banner_ad {
+    text-align: center;
+    background-color: black;
+    padding: 0;
+    position: absolute;
+    z-index: 6;
+}
+#videoinbannerMRd .banner_ad._idntimes {
+    right: 90px;
+    top: 120px; 
+}
+#videoinbannerMRd .banner_ad._fortune {
+    right: 63px;
+    top: 120px; 
+}
+#videoinbannerMRd .banner_ad._popb {
+    right: 98px;
+    top: 184px; 
+}
+#videoinbannerMRd .banner_ad._popm {
+    right: 93px;
+    top: 132px;
+}
+#videoinbannerMRd .banner_ad, #videoinbannerMRd video {
+    width: 115px;
+    height: 96px;
+}
+
+  
+/* ========= Display Ad Mobile ========= */
+
+/* ==== Megabillboard ==== */
+
+#idnmegabillboard .web_box {
+   padding-top: 470px;
+   overflow-y: hidden;
+   overflow-x: hidden;
+}
+#idnmegabillboard .web_box:hover {
+   overflow-y: scroll;
+   overflow-x: hidden;
+}
+#idnmegabillboard .banner_ad {
+    width: 330px;
+    left: 0;
+    right: 0;
+    top: 20px;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    position: relative;
+    z-index: -1;
+}
+#idnmegabillboard .banner_ad img {
+    width: 300px;
+    height: 450px;
+}
+
+
+/* ==== Parallax ==== */
+
+#parallax .web_box {
+   padding-top: 0;
+   overflow-y: hidden;
+   overflow-x: hidden;
+}
+#parallax .web_box:hover {
+   overflow-y: scroll;
+   overflow-x: hidden;
+}
+#parallax .banner_ad {
+    width: 350px;
+    left: 0;
+    right: 0;
+    top: 100px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    z-index: -1;
+}
+#parallax .banner_ad img {
+    width: 320px;
+    height: 450px;
+}
+
+
+/* ==== parallax Billboard ==== */
+
+#parallaxB .web_box {
+   padding-top: 0;
+   overflow-y: hidden;
+   overflow-x: hidden;
+}
+#parallaxB .web_box:hover {
+   overflow-y: scroll;
+   overflow-x: hidden;
+}
+#parallaxB .banner_ad {
+    width: 350px;
+    left: 0;
+    right: 0;
+    top: 100px;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    position: relative;
+    z-index: -1;
+}
+#parallaxB .banner_ad img {
+    width: 320px;
+    height: 450px;
+}
+
+
+/* ==== In Article All Mobile ==== */
+
+#Minarticle .web_box {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#Minarticle .banner_ad {
+    left: 0;
+    right: 0;
+    top: 222px;
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    position: relative;
+    z-index: 6;
+}
+#Minarticle .banner_ad img {
+    width: 275px;
+    height: 230px;
+}
+
+
+/* ==== In Article Swipe ==== */
+
+#inartswipe .web_box {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#inartswipe .banner_ad {
+    left: 0;
+    right: 0;
+    top: 222px;
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    position: relative;
+    z-index: 6;
+    width: 330px;
+    overflow: hidden;
+}
+#inartswipe .banner_ad img {
+    width: 275px;
+    height: 230px;
+}
+
+
+/* ==== Bottom Slide ==== */
+
+#botslide .web_box {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#botslide .banner_ad {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    position: absolute;
+    z-index: 6;
+}
+
+
+/* ==== Leaderboard Expand ==== */
+
+#leadexp .web_box {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#leadexp .banner_ad {
+    left: 0;
+    right: 0;
+    top: 130px;
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    position: absolute;
+    z-index: 6;
+}
+#leadexp .banner_ad._fortune {
+    left: 0;
+    right: 0;
+    top: 73px;
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    position: absolute;
+    z-index: 6;
+}
+#leadexp .banner_ad._popmama {
+    left: 0;
+    right: 0;
+    top: 90px;
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    position: absolute;
+    z-index: 6;
+}
+#leadexp img.site2 {
+    padding-top: 320px;
+}
+
+/* ==== Bottomsticky Mobile ==== */
+
+#Mbottomsticky .web_box {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#Mbottomsticky .banner_ad {
+    left: 0;
+    right: 0;
+    bottom: 22px;
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    position: absolute;
+    z-index: 6;
+    width: 290px;
+    height: 45px;
+}
+#Mbottomsticky .banner_ad img {
+    width: 290px;
+    height: 45px;
+}
+
+
+
+/* ==== Carousel Sticky Mobile ==== */
+
+#carouselsticky .web_box {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#carouselsticky .banner_ad {
+    left: 0;
+    right: 0;
+    bottom: 22px;
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    position: absolute;
+    z-index: 6;
+    width: 330px;
+}
+
+
+
+/* ==== Masthead Mobile ==== */
+
+#MMasthead .web_box {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#MMasthead .banner_ad {
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    position: relative;
+    z-index: 6;
+    width: 275px;
+    height: 230px;
+}
+#MMasthead .banner_ad img {
+    width: 100%;
+    height: auto;
+}
+#MMasthead video {
+    width: 220px;
+    height: 123px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;   
+}
+#MMasthead .banner_ad._idntimes {
+    top: 140px;
+}
+#MMasthead .banner_ad._fortune {
+    top: 74px;
+}
+#MMasthead .banner_ad._popbela {
+    top: 125px;
+}
+#MMasthead .banner_ad._popmama {
+    top: 81px;
+}
+
+
+/* ==== Masthead Sticky ==== */
+
+#MMasthead_sticky .web_box {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#MMasthead_sticky .banner_ad {
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    position: absolute;
+    z-index: 6;
+    width: 290px;
+    height: 290px;
+    bottom: 23px;
+}
+#mastheadsticky .ms_big img {
+    width: 290px;
+    height: 290px;
+}
+#mastheadsticky .ms_small img {
+    width: 290px;
+    height: 45px;
+}
+#MMasthead_sticky video {
+    position: absolute;
+    margin: auto;
+    width: 260px;
+    height: 150px;
+    left: 0;
+    right: 0;
+    top: 5px;
+    z-index: 1;
+}
+
+
+
+/* ==== Video in Banner In Article Mobile ==== */
+
+#videoinbannerMarticle .web_box {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#videoinbannerMarticle .banner_ad {
+    left: 0;
+    right: 0;
+    top: 220px;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    padding: 0;
+    position: relative;
+    z-index: 6;
+}
+#videoinbannerMarticle .banner_ad, #videoinbannerMarticle video {
+    width: 278px;
+    height: 232px;
+}
+
+
+/* ==== Video Sticky ==== */
+
+#videoSticky .web_box {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#videoSticky .banner_ad {
+    left: 30px;
+    bottom: 30px;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    padding: 0;
+    position: absolute;
+    z-index: 6;
+}
+#videoSticky .banner_ad, #videoSticky video {
+    width: 190px;
+    height: 110px;
+}
+
+
+
+/* ==========  RESPONSIVE ========== */
+
+@media (max-width: 480px) {
+    #mastheadsticky {
+        width: 230px!important;
+    }
+    #MMasthead_sticky .banner_ad, #mastheadsticky .ms_big img {
+        width: 230px;
+        height: 230px;
+    }
+    #displayad2 {
+        position: absolute;
+    }
+    #mastheadsticky .ms_small, #mastheadsticky .ms_small img {
+        width: 230px!important;
+        height: 36px!important;
+    }
+    #MMasthead_sticky video {
+        width: 200px;
+        height: 115px;
+    }
+    
+    
+    
+    
+    
+    .try_ad input {
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 150px;
+    }
+    .try_ad .takess {
+        margin-left: 0;
+    }
+    .adpreview_desktop_box {
+        width: 290px;
+        height: 229px;
+    }
+    .adpreview_desktop_box .web_box {
+        top: 15px;
+        width: 261px;
+        height: 164px;
+        border-radius: 12px;
+    }
+    .adpreview_mobile_box {
+        width: 290px;
+        height: 580px;
+    }
+    .adpreview_mobile_box .web_box {
+        top: 18px;
+        width: 250px;
+        height: 544px;
+        border-radius: 12px;
+    }
+    .adpreview_mobile_box img.img_header {
+        width: 250px;
+        top: 17px;
+    }
+    .adpreview_mobile_box img.img_share {
+        width: 250px;
+        bottom: 18px;
+    }
+    #idnmegabillboard .banner_ad {
+        width: 250px;
+    }
+    #idnmegabillboard .banner_ad img {
+        width: 100%;
+        height: auto;
+    }
+    #idnmegabillboard .web_box {
+        padding-top: 365px;
+        overflow-y: scroll;
+    }
+    #Mbottomsticky .banner_ad {
+        bottom: 18px;
+    }
+    #Mbottomsticky .banner_ad, #Mbottomsticky .banner_ad img {
+        max-width: 230px;
+        height: auto;
+    }
+    #leadexp .banner_ad {
+        top: 110px;
+    }
+    #leadexp img.site2 {
+        padding-top: 250px;
+    }
+    #leaderboard_expand {
+        width: 220px!important;
+        height: 290px!important;
+    }
+    #leaderboard_expand .leaderboard_small, .leaderboard_small img {
+        width: 220px!important;
+        height: 69px!important;
+    }
+    #leaderboard_expand .leaderboard_big {
+        width: 220px!important;
+        height: 275px!important;
+        position: absolute;
+        top: 0;
+    }
+    .leaderboard_big img {
+        width: 220px!important;
+        height: auto!important;
+    }
+    #Minarticle .banner_ad, #Minarticle .banner_ad img {
+        width: 210px;
+        height: 175px;
+        top: 171px;
+    }
+    #parallax .web_box {
+        overflow-y: scroll;
+    }
+    #parallax .banner_ad {
+        width: 250px;
+    }
+    #parallax .banner_ad img {
+        width: 100%;
+        height: auto;
+    }
+    #parallaxB .web_box {
+        overflow-y: scroll;
+    }
+    #parallaxB .banner_ad {
+        background-color: white;
+        width: 270px;
+    }
+    #parallaxB .banner_ad img {
+        width: 100%;
+        height: auto;
+    }
+    #bottom_slide {
+        width: 230px!important;
+        bottom: 19px!important;
+    }
+    #bottom_slide .bs_sticky, .bs_sticky img {
+        width: 230px!important;
+        height: 39px!important;
+    }
+    #bottom_slide .bs_ad {
+        width: 230px!important;
+        height: 345px!important;
+    }
+    .bs_ad img {
+        position: absolute;
+        bottom: 0;
+        width: 230px!important;
+        height: 345px!important;
+    }
+    .close_bs img {
+        position: relative!important;
+        width: 56px!important;
+        height: 15px!important;
+        top: 98px!important;
+    }
+    #carouselsticky .banner_ad {
+        width: 250px;
+        bottom: 18px;
+    }
+    .gallery-cell {
+        width: 220px!important;
+        height: 69px!important;
+    }
+    .gallery-cell img {
+        width: 220px!important;
+        height: auto!important;
+    }
+    #MMasthead .banner_ad {
+        width: 210px;
+        height: 175px;
+    }
+    #MMasthead video {
+        width: 185px;
+        height: 95px;
+        top: 5px;
+    }
+    #MMasthead .banner_ad._idntimes {
+        top: 108px;
+    }
+    #MMasthead .banner_ad._popbela {
+        top: 100px;
+    }
+    #MMasthead .banner_ad._popmama {
+        top: 65px;
+    }
+    #videoinbannerMarticle .banner_ad, #videoinbannerMarticle video {
+        width: 210px;
+        height: 175px;
+    }
+    #videoinbannerMarticle .banner_ad {
+        top: 170px;
+    }
+    #inartswipe .banner_ad {
+        width: 250px;
+        top: 170px;
+    }
+    #inartswipe .banner_ad img {
+        width: 200px;
+        height: 167px;
+    }
+    #inartswipe .slider-container {
+        height: 220px!important;
+    }
+    #inartswipe .slider {
+        top: 69%!important;
+    }
+    
+    
+    /* === Responsive Desktop === */
+    
+    #DMasthead .banner_ad {
+        width: 180px;
+        height: 46px;
+        top: 56px;
+    }
+    #DMasthead .banner_ad img {
+        width: 180px;
+        height: 46px;
+    }
+    #DMasthead ._idntimes video {
+        width: 65px;
+        height: auto;
+        top: 4px;
+        left: 5px;
+    }
+    #DMasthead ._fortune video {
+        width: 70px;
+        height: auto;
+        top: 4px;
+        left: 5px;
+    }
+    #DMasthead ._popb video {
+        width: 65px;
+        height: auto;
+        top: 4px;
+        left: 5px;
+    }
+    #DMasthead ._popm video {
+        width: 60px;
+        height: auto;
+        top: 4px;
+        left: 5px;
+    }
+    #DMasthead .banner_ad._idntimes {
+        top: 55px;
+    }
+    #DMasthead .banner_ad._fortune {
+        top: 43px;
+    }
+    #DMasthead .banner_ad._popb {
+        top: 35px;
+    }
+    #DMasthead .banner_ad._popm {
+        top: 46px;
+    }
+    
+    #videoinbannerMRd .banner_ad, #videoinbannerMRd video {
+        width: 56px;
+        height: 47px;
+    }
+    #videoinbannerMRd .banner_ad._idntimes {
+        right: 45px;
+        top: 60px;
+    }
+    #videoinbannerMRd .banner_ad._fortune {
+        right: 32px;
+        top: 59px;
+    }
+    #videoinbannerMRd .banner_ad._popb {
+        right: 49px;
+        top: 90px;
+    }
+    .leaderboard_comp {
+        width: 180px!important;
+        height: 46px!important;
+    }
+    .leaderboard_comp_slider {
+        width: 40px!important;
+        height: 23px!important;
+        background-size: cover;
+    }
+    
+    #Dbottomsticky_idn .banner_ad {
+        top: 154px;
+    }
+    #Dbottomsticky_idn .banner_ad img {
+        width: 152px;
+        height: 19px;
+    }
+    
+    #DSkinad_idn .banner_ad_L {
+        left: 22px;
+        top: 50px;
+    }
+    #DSkinad_idn .banner_ad_R {
+        right: 22px;
+        top: 50px;
+    }
+    #DSkinad_idn .banner_ad_L img, #DSkinad_idn .banner_ad_R img {
+        width: 23px;
+        height: 96px;
+    }
+    
+    #VerticalBB .banner_ad img {
+        width: 56px;
+        height: 112px;
+    }
+    #VerticalBB .banner_ad._idntimes {
+        right: 45px;
+        top: 65px;
+    }
+    #VerticalBB .banner_ad._popb {
+        right: 49px;
+        top: 42px;
+    }
+
+    #Dinarticle_idn .banner_ad {
+        left: 50px;
+        top: 90px;
+    }
+    #Dinarticle_idn .banner_ad img {
+        width: 135px;
+        height: 17px;
+    }
+    
+    #Dinarticle_popb .banner_ad {
+        left: 45px;
+        top: 82px;
+    }
+    #Dinarticle_popb .banner_ad img {
+        width: 135px;
+        height: 17px;
+    }
+    
+    #Medrec .banner_ad img {
+        width: 56px;
+        height: 47px;
+    }
+    #Medrec .banner_ad._idntimes {
+        right: 45px;
+        top: 59px;
+    }
+    #Medrec .banner_ad._fortune {
+        right: 32px;
+        top: 59px;
+    }
+    #Medrec .banner_ad._popb {
+        right: 49px;
+        top: 90px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
