@@ -120,7 +120,7 @@
 	 min-height: 100%;
 	 width: auto;
 	 height: auto;
-	 z-index: -100;
+	 z-index: 0;
 }
  .shaping-wrap {
 position: absolute;
@@ -703,7 +703,7 @@ position: absolute;
  @media screen and (max-width: 480px) {
 	 #home_awal {
 		 
-		 height: 80vh;
+		 height: 100vh;
 		 width: auto;
 		 padding: 10px;
 	}
