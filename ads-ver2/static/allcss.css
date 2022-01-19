@@ -29,8 +29,9 @@
 	 font-style: normal;
 	 font-weight: normal;
 	 src: url('../fonts/HelveticaNeue-Light.woff') format('woff');
-}
-  :root {
+} 
+ 
+:root {
 	 font-size: 62.5%;
 	--body: #f3f3f3;
 	--theme: #020A31;
