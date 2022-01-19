@@ -1,6 +1,5 @@
 
 
-
 @font-face {
 	 font-family: 'Helvetica Neue Black';
 	 font-style: normal;
@@ -30,9 +29,8 @@
 	 font-style: normal;
 	 font-weight: normal;
 	 src: url('../fonts/HelveticaNeue-Light.woff') format('woff');
-} 
- 
-:root {
+}
+  :root {
 	 font-size: 62.5%;
 	--body: #f3f3f3;
 	--theme: #020A31;
@@ -125,7 +123,7 @@
 	 z-index: -100;
 }
  .shaping-wrap {
-position: relative;
+position: absolute;
     bottom: 0;
     width: 100%;
 
@@ -771,7 +769,7 @@ position: relative;
 	}
 
 	.shaping-wrap {
-		bottom: -50px !important;
+		bottom: -23px !important;
 	}
 }
  @-webkit-keyframes bounce {
