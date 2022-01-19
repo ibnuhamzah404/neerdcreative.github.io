@@ -124,7 +124,7 @@
 }
  .shaping-wrap {
  	display: block;
-     position: relative;
+ 	position: relative;
 	       top: auto;
     bottom: 0 !important;
     left: 0;
