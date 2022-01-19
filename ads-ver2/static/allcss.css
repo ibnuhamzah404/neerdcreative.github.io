@@ -68,7 +68,7 @@
 	 width: 100%;
 	 height: 100%;
 	 z-index: 1;
-	 background: url(static/img/wave-cover-bg.png) no-repeat center center;
+	 background: url(wave-cover-bg.png) no-repeat center center;
 	 background-size: cover;
 	 -webkit-background-size: cover;
 	 -moz-background-size: cover;
@@ -95,13 +95,13 @@
  .background::before {
 	 content: "";
 	 display: block;
-	 position: fixed;
+	 position: absolute;
 	 left: 0;
 	 top: 0;
 	 width: 100%;
 	 height: 100%;
 	 z-index: 0;
-	 background: url(static/img/wave-cover-bg.png) no-repeat center center;
+	 background: url(wave-cover-bg.png) no-repeat center center;
 	 background-size: cover;
 	 -webkit-background-size: cover;
 	 -moz-background-size: cover;
@@ -121,16 +121,15 @@
 	 z-index: -100;
 }
  .shaping-wrap {
-    position: fixed;
-    top: auto;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 150px;
-    z-index: 2;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
+	 position: absolute;
+	 top: auto;
+	 
+	 left: 0;
+	 right: 0;
+	 width: 100%;
+	 height: 150px;
+	 z-index: 0;
+	 transform: translateZ(0);
 }
  .shaping-wrap .shaping {
 	 width: 100%;
@@ -722,8 +721,9 @@
 		 font-size: 2.2rem;
 	}
 	 .background::before {
-		 background: url(static/img/wave-cover-bg.png) no-repeat center center;
+		 background: url("wave-cover-bg.png") no-repeat center center;
 		 background-size: cover;
+
 	}
 	 .videoContainer {
 		 display: none;
