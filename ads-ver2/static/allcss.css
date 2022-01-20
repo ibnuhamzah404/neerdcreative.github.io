@@ -61,7 +61,7 @@
 	 justify-content: center;
 	 align-items: center;
 }
- .Container::before {
+ .videoContainer::before {
 	 content: "";
 	 display: block;
 	 position: absolute;
@@ -113,8 +113,8 @@
  .background #video-background {
 	 position: relative;
 	 left: 50%;
-	 top: 100%;
-
+	 
+	 top: 50%;
 	 transform: translate(-50%, -50%);
 	
 	 min-width: 100%;
