@@ -86,7 +86,7 @@
 	 top: -25%;
 }
  .background {
-	 height: 105%;
+	 height: 100%;
 	 left: 0;
 	 overflow: hidden;
 	 position: absolute;
@@ -702,11 +702,16 @@ position: absolute;
 	 display: block;
 }
  @media screen and (max-width: 480px) {
+ 	.background
+ 	{
+ 		height: 105% !important;
+ 	}
 	 #home_awal {
 		 
 		 height: 100vh;
 		 width: auto;
 		 padding: 10px;
+ 	}
 	}
 	 #home_awal img {
 		 max-width: 160px;
