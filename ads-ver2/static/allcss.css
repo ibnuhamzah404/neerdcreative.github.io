@@ -114,8 +114,8 @@
 	 position: relative;
 	 left: 50%;
 	 top: 50%;
-	 
-	 margin: auto;
+	 transform: translate(-50%, -50%);
+	
 	 min-width: 100%;
 	 min-height: 100%;
 	 width: auto;
