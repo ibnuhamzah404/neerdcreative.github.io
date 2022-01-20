@@ -33,8 +33,8 @@
   :root {
 	 font-size: 62.5%;
 	--body: #f3f3f3;
-	--theme:  #F7F9F9;
-	--theme2: #020A31;
+	--theme: #020A31;
+	--theme2: #f3f3f3;
 	--line-nav: #FAD940;
 	--darkblue: #004381;
 	--mm-color-border: rgba(255, 255, 255, 0.2);
@@ -704,7 +704,7 @@ position: absolute;
  @media screen and (max-width: 480px) {
  	.background
  	{
- 		height: 100vh !important;
+ 		height: 100vh;
  	}
 	 #home_awal {
 		 
@@ -952,17 +952,12 @@ position: absolute;
 	margin-right: 10px;
 	text-align:center;
 	border-radius:50%;
-	border:2px solid black;
+	border:2px solid #ccc;
 	color:inherit;
 	opacity:0.75;
 }
 
-.social a i{
-	color: black;
-}
-
 .social a:hover {
 	color: #FAD940;
-	border-color:  #E83F33;
-	:
+	border-color: #FAD940;
 }
