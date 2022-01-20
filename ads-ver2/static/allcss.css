@@ -704,7 +704,7 @@ position: absolute;
  @media screen and (max-width: 480px) {
  	.background
  	{
- 		height: 105% !important;
+ 		height: 100vh !important;
  	}
 	 #home_awal {
 		 
