@@ -84,6 +84,7 @@ function remove_home() {
     document.getElementById("menubtn").style.opacity = "1";
     document.getElementById("iframe_idn").style.display = "block";
     document.getElementById("ytbg").style.display = "none";
+        document.getElementById("ytbg").style.display = "footer-one";
 }
 
 // hide menu on mobile
@@ -92,6 +93,7 @@ function remove_home_mobile() {
     document.getElementById("dn1").style.display = "none";
     document.getElementById("dn2").style.display = "none";
     document.getElementById("home_awal").style.display = "none";
+      document.getElementById("ytbg").style.display = "footer-one";
     document.getElementById("menubtn").style.opacity = "1";
     document.getElementById("iframe_idn").style.display = "block";
     document.getElementById("sidebar-wrapper").style.width = "0px";

@@ -4,6 +4,10 @@
     font-size: 62.5%;
 }
 
+.dp-none{
+    display: none !important;
+}
+
 #page-content-wrapper .spec-des h2 {
     font-size: 2rem;
     padding: 10px;
