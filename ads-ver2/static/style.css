@@ -1,5 +1,33 @@
   
+.footer-one {
+    background-color: #020a31;}
 
+
+    .social a {
+    display: flex;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-two ul li a {
+    font-size: 14px;
+}
   html {
     font-size: 62.5%;
 }
