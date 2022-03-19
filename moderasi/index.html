@@ -12,10 +12,28 @@
     />
     <title>Tizor</title>
     <script type="text/javascript">
-    function today(delta) {
-        var ld = new Date(Date.now()+ (86400000 * delta));
-        return document.write (ld.toLocaleDateString());
+    function today(minday) {
+        const d = new Date();
+        let month = d.getMonth();
+        let day = d.getDate();
+        let year = d.getFullYear();
+        if(day <= 10 ){
+    
+            day = "0" + (day - minday);
+             if(day <= 0){
+            day = 1;
+           }
+          
+        }else{
+           day =  day - minday;
+           if(day <= 0){
+            day = 1;
+           }
+        }
+       
+      return document.write (day + "/" + month + "/" + year);
     }
+   
 </script>
     <!--click url -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -106,8 +124,8 @@
               id="anch_4"
               ><img
                 alt="MedlinePlus Trusted Health Information for You"
-                src="assets/logo.png"
-                tppabs="assets/logo.png"
+                src="assets/img/logo.png"
+                tppabs="assets/img/logo.png"
                 title="MedlinePlus Trusted Health Information for You"
             /></a>
           </div>
@@ -148,9 +166,9 @@
                   tppabs="assets/1oldman.jpg"
                 /> -->
                 <img
-                  class="oldman"
-                  src="assets/2oldman.jpg"
-                  tppabs="assets/2oldman.jpg"
+                  class=""
+                  src="assets/img/3.jpeg"
+                  tppabs="assets/img/3.jpeg"
                 />
               </div>
               <!--<p>
@@ -173,8 +191,8 @@
                 <img
                   alt=""
                   class="oldman2"
-                  src="assets/3oldman.jpg"
-                  tppabs="assets/3oldman.jpg"
+                  src="assets/img/2.jpeg"
+                  tppabs="assets/img/2.jpeg"
                   width="250"
                 />
               </div>
@@ -241,7 +259,7 @@
                 <img
                   alt="Tizor"
                   class="oldman2"
-                  src="assets/4oldman.jpg"
+                  src="assets/img/1.jpeg"
                   tppabs="assets/4oldman.jpg"
                   width="250"
                 />
@@ -389,7 +407,7 @@
                               Hendrikus
                             </a>
                           </div>
-                          <div class="date"><script>today( -7);</script></div>
+                          <div class="date"><script>today(2);</script></div>
                         </div>
                       </div>
                       <div class="line line-2">
@@ -433,7 +451,7 @@
                               Bryan
                             </a>
                           </div>
-                          <div class="date"><script>today( -7);</script></div>
+                          <div class="date"><script>today(2);</script></div>
                         </div>
                       </div>
                       <div class="line line-2">
@@ -467,7 +485,7 @@
                               levilia
                             </a>
                           </div>
-                           <div class="date"><script>today( -6);</script></div>
+                           <div class="date"><script>today(3);</script></div>
                         </div>
                       </div>
                       <div class="line line-2">
@@ -505,7 +523,7 @@
                               Handi
                             </a>
                           </div>
-                          <div class="date"><script>today( -6);</script></div>
+                          <div class="date"><script>today(3);</script></div>
                         </div>
                       </div>
                       <div class="line line-2">
@@ -547,7 +565,7 @@
                               Aisya
                             </a>
                           </div>
-                           <div class="date"><script>today( -6);</script></div>
+                           <div class="date"><script>today(3);</script></div>
                         </div>
                       </div>
                       <div class="line line-2">
@@ -586,7 +604,7 @@
                               kualifikasi
                             </a>
                           </div>
-                          <div class="date"><script>today( -5);</script></div>
+                          <div class="date"><script>today(4);</script></div>
                         </div>
                       </div>
                       <div class="line line-2">
@@ -637,7 +655,7 @@
                               Gerry
                             </a>
                           </div>
-                         <div class="date"><script>today( -5);</script></div>
+                         <div class="date"><script>today( 5);</script></div>
                         </div>
                       </div>
                       <div class="line line-2">
@@ -672,7 +690,7 @@
                               Andi
                             </a>
                           </div>
-                           <div class="date"><script>today( -5);</script></div>
+                           <div class="date"><script>today( 5);</script></div>
                         </div>
                       </div>
                       <div class="line line-2">
@@ -721,7 +739,7 @@
                               Iko
                             </a>
                           </div>
-                           <div class="date"><script>today( -5);</script></div>
+                           <div class="date"><script>today( 5);</script></div>
                         </div>
                       </div>
                       <div class="line line-2">
@@ -762,7 +780,7 @@
                               Gerry
                             </a>
                           </div>
-                          <div class="date"><script>today( -4);</script></div>
+                          <div class="date"><script>today( 6);</script></div>
                         </div>
                       </div>
                       <div class="line line-2">
@@ -889,8 +907,8 @@
               >
                 <img 
 				  
-                  src="assets/logo.png"
-                  tppabs="assets/logo.png"
+                  src="assets/img/logo.png"
+                  tppabs="assets/img/logo.png"
                   style="
                     width: 70%;
                     height: auto;

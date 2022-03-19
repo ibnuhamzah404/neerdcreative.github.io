@@ -51,16 +51,8 @@ html {
 body {
   background: url(index-1.htm)
     /*tpa=https://hottest-goodies.com/dominator/pre1/css/.*/;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#feffff),
-    color-stop(20%, #ddf1f9),
-    to(#a0d8ef)
-  );
-  background: linear-gradient(#feffff, #ddf1f9 20%, #a0d8ef);
-  background-color: #a0d8ef;
+ 
+  background-color: #FEC745;
   background-repeat: no-repeat;
   background-size: 100% 71.42857em;
   font-size: 0.875em;
@@ -114,7 +106,7 @@ a:visited {
   outline: 0;
 }
 a {
-  color: #2DB847;
+  color: #FEB916;
 }
 a:visited {
   color: #936;
@@ -785,7 +777,7 @@ p {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#188be2",endColorstr="#0c4d99",GradientType=0);
   color: #fff !important;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 25px;
   border-radius: 10px;
   display: block;
   margin: 0 auto;
@@ -845,7 +837,7 @@ p {
   }
 }
 .username a {
-  color: #2DB847;
+  color: #FEB916;
 }
 .nav-list li a.active {
   color: #fff !important;
