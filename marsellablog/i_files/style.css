@@ -6,6 +6,10 @@ html{
     padding: 0;
 }
 
+p, .vk-comment-text, .vk-container a, .program_diskon_text{
+    font-size: 15px !important;
+}
+
 
 body {
     background: url("bg.jpg") ;
