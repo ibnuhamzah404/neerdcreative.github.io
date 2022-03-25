@@ -6,8 +6,12 @@ html{
     padding: 0;
 }
 
-p, .vk-comment-text, .vk-container a, .program_diskon_text{
+p, .vk-comment-text, .vk-container , .program_diskon_text{
     font-size: 15px !important;
+}
+
+.vk-comment-like-count a{
+    font-size: 12px !important;
 }
 
 
