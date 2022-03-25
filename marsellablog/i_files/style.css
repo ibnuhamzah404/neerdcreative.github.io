@@ -396,7 +396,7 @@ img {
     display: block;
     float: none !important;
     height: inherit !important;
-    margin-top : -35px;
+    margin-top : 0px;
     width: auto !important;
 }
 .navbar {
