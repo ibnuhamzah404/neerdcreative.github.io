@@ -69,5 +69,23 @@ section.sec-6 .p-box{
     flex-direction: column-reverse;
 
  }
- 
+
+ .abu-gal > ul > li:first-child,
+ .abu-gal > ul > li{
+ 	display: flex !important;
+ 	    margin: 0 auto !important;
+    justify-content: center !important;
+    align-items: center !important;
+ }
+  .abu-gal > ul > li:first-child img{
+  	width: 90% !important;
+  }
+
+  .abu-gal > ul > li{
+  	   margin-top : -100px !important;
+  }
+
+  .project-slider-area .pb-5{
+  	padding-bottom: 20px !important;
+  }
 }
