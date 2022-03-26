@@ -1,0 +1,73 @@
+
+
+
+
+@media screen and (max-width: 480px) { 
+
+		section.sec-2 .body-container,
+section.sec-4 .box-card,
+section.sec-7 .c-box{
+	flex-direction: column;
+}
+
+
+
+section.sec-2 .card,
+section.sec-4 .box-card .card{
+	width: 100%;
+}
+section.sec-2 .card{
+	margin-right: 0;
+	margin-top: 20px;
+ }
+
+ section.sec-5 .box-partners{
+ 	justify-content: center;
+ }
+
+ .abu-arch-tl{
+ 	margin-top: 20px !important;
+ }
+section.sec-6 .p-box{
+	width : 100% important;
+	flex-wrap: wrap !important;
+}
+ section.sec-6 .p-box .box{
+ 	width: 50% !important;
+ }
+
+ section.sec-6 .p-box .box p,
+ section.sec-6 .p-box .box h4{
+ 	font-size: 13px;
+ 	margin : 0;
+ }
+
+ section.sec-6 .box .c-box img{
+ 	width: 15px;
+ }
+
+ section.sec-6 .p-box .box{
+ 		margin-top: 10px;
+ 	    align-items: unset !important;
+ 	    justify-content: unset !important;
+ }
+
+ .vertikal-line{
+ 	display: none;
+ }
+
+ .logo{
+ 	margin : unset !important;
+ }
+ .logo-saff{
+ 	width: 150px !important;
+ }
+
+ section.sec-3 .row{
+
+    display: flex;
+    flex-direction: column-reverse;
+
+ }
+ 
+}
