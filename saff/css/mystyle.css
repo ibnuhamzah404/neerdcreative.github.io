@@ -121,15 +121,66 @@ section.sec-3 .box-holiday{
 }
 
 
+section.sec-3 .box-img {
+     position: relative;
+  top: 0;
+  left: 0;
+
+}
+
+section.sec-3 .box-img .img1{
+  position: relative;
+  top: 0;
+  left: 0;
+ 
+}
+
+section.sec-3 .box-img .abs-div img:hover{
+   height : 150px;
+   cursor: pointer;
+
+}
+
+section.sec-3 .box-img .abs-div{
+   position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section.sec-3 .box-img .abs-div img{
+    width: auto;
+    height: 120px;}
 section.sec-3 .box-holiday h2,section.sec-3 .box-holiday p{
     color : #fff;
+}
+.box-holiday p{
+    font-size : 12px;
 }
 
 section.sec-3 .box-holiday .content{
 
-    margin : 0 auto;
-    width: fit-content;
+
     width: 80%;
+    padding-left: 10%;
+    
+}
+
+.box-play{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.box-play i:hover{
+    cursor: pointer;
+    font-size: 60px;
 }
 
 
@@ -296,9 +347,16 @@ section.sec-7  .p-box .b2 .c-box h4
 {
     display: inline-block;
     color: #fff;
+    margin-top: 2px;
 
 }
 
 section.sec-7  .p-box .b2 .c-box a{
     color: #aee2d4;
+}
+
+footer iframe{
+   
+    width: 600px !important;
+    height: 250px !important    ;
 }

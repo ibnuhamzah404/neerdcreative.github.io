@@ -14,7 +14,10 @@
     <meta name="language" content="Indonesia">
     <!-- Favicon -->
     <link rel="icon" href="img/favicon.ico">
-
+ <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <!-- CSS
 	============================================ -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -258,7 +261,7 @@
                 <div class="head-container">
                     <h2> SAFF </h2>
                 </div>
-                <div class="container">
+                <div class="sec-con-2">
                 <div class="body-container">
                     <div class="card c1">
                         <img class="img1" src="assets/saff-section/img1.jpg" alt="">
@@ -295,17 +298,34 @@
                 <div class="hr mb-5"> </div>
                  <div class="row ">
                 <div class="col-md-6">
+                    <div class="box-new" style="width : 100%;">
+                         <h2 class="mx-auto" style="width: 80%; color : #39709C;">NEWS</h2>
+                    </div>
+                    
                     <div class="box-holiday">
+
                         <div class="content">
-                            <h2>Holiday Tips</h2>
-                            <p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Assumenda rem repellendus molestiae similique dolor minus doloremque obcaecati, accusamus quae quo aperiam dignissimos, aliquid praesentium molestias ullam? Deleniti at cum harum?</p>
+                           
+                            <h2 class="n-title n-title-1 animate__animated animate__fadeInLeft">Holiday Tips</h2>
+                            <p class="n-content-1 animate__animated animate__fadeInLeft">Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Assumenda rem repellendus molestiae similique dolor minus doloremque obcaecati, accusamus quae quo aperiam dignissimos, aliquid praesentium molestias ullam? Deleniti at cum harum?</p>
+
+                             <h2 class="n-title n-title-2 d-none animate__animated animate__fadeInLeft"> HOLIDAY NOW</h2>
+                            <p class="n-content-2 d-none animate__animated animate__fadeInLeft"> lorem new lorem new </p>
+                        </div>
+                        <div class="box-play ">   
+                                 <i class="fa fa-play text-white text-center n-btn-play" aria-hidden="true" style="font-size: 50px;"></i>
                         </div>
                         
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="box-img">
-                        <img src="assets/news-section/img1.jpg" alt="">
+                <div class="col-md-6" style="margin : 0 !important;">
+                    <div class="box-img" style="margin : 0 !important;">
+                         <img class="img1" src="assets/news-section/img1.jpg" alt="" >
+                        <div class="abs-div">   
+                        <img class="img2" src="assets/news-section/play.png" alt=""  data-toggle="modal" data-target="#exampleModal">
+                       </div>
+                                
+                       
                     </div>
                 </div>
                   </div>
@@ -461,7 +481,7 @@
 
                                       </div>
                                   </div>
-                                  <div class="box b2">
+                                  <div class="box b2 d-flex">
                                       <div class="c-box">
                                           <h4>CORPORATE</h4>
                                           <a href="">About</a>
@@ -469,7 +489,14 @@
                                           <a href="">Contact Us</a>
                                           <a href="">Company Profile</a>
                                       </div>
-                                      <div class="c-box"></div>
+                                      <div class="c-box pl-5">
+                                        <div class="gp-box">
+                                            <h4>EAST BORNEO</h4>
+                                            <h4>JAKARTA</h4>
+                                        </div>
+                                        <div class="gp-box"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15958.699672393604!2d117.1483926!3d-0.4857808!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x230fd8e6a67730d9!2sYOU%20Space!5e0!3m2!1sid!2sid!4v1648414024689!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                                          
+                                      </div>
                                   </div>
                               </div>
                           </div>
@@ -546,7 +573,9 @@
     <!--====================  End of scroll top  ====================-->
     <!-- JS
 ============================================ -->
-
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- Modernizer JS -->
     
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -586,7 +615,53 @@
     <!-- Main JS -->
     
     <script src="js/main.js"></script>
+    <script>    
+
+        $(".n-btn-play").click(function(){
+               
+                       var tes   =  $('.n-title-1').hasClass('d-none');
+                       console.log(tes);
+                    if(tes == true){
+                         
+                        $(".n-title-2").addClass("d-none");
+                        $(".n-title-1").removeClass("d-none");
+                         $(".n-content-1").removeClass("d-none");
+                         $(".n-content-2").addClass("d-none");
+                         
+                    }else{
+                         $(".n-title-1").addClass("d-none");
+                 $(".n-title-2").removeClass("d-none");
+                  $(".n-content-1").addClass("d-none");
+                  $(".n-content-2").removeClass("d-none");
+                    }
+                         
+        });
+
+    </script>   
+    
 
 </body>
 
 </html>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close tombol-keluar" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+     
+     
+
+<iframe id="exampleModal" tabindex="-1"  height="315" style="width : 100%" src="https://www.youtube.com/embed/Sw_SQlwTdT8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+      
+    </div>
+  </div>
+</div>
