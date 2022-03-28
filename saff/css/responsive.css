@@ -142,9 +142,10 @@ section.sec-6 .p-box{
    font-size: 30px !important;
 }
 
-footer, h4{
+footer, footer h4{
    color : #fff !important;
 }
+
 footer .b2{
    flex-direction: column !important;
 }
