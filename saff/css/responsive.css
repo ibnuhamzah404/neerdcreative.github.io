@@ -1,173 +1,178 @@
+/*mobile responsive*/
 
-
-
-
-@media screen and (max-width: 480px) { 
-
-		section.sec-2 .body-container,
-section.sec-4 .box-card,
-section.sec-7 .c-box,
-section.sec-7 .p-box{
-	flex-direction: column;
-}
-
-section.mob footer,
-section.mob .p-box .box{
-   width: 100%;
- 
-
-}
-
-section.mob .c-box,  .c-box-2{
-   width : 50% !important;
-}
-
-section.mob .b3 .gp-box{
-   display: flex;
-   flex-direction: row;
-}
-
-section.mob .b3 .c-box-3{
-   width: 100% !important;
-   
-}
-
-section.mob .b3 .c-box-3 .gp-box{
-   overflow: hidden;
-}
-section.mob .p-box .b1,
-section.mob .p-box .b2{
-   display: flex !important;
-   flex-direction: row !important;
-}
-
-
-
-section.sec-2 .card,
-section.sec-4 .box-card .card{
-	width: 100%;
-}
-section.sec-2 .card{
-	margin-right: 0;
-	margin-top: 20px;
-   height: 320px !important;
- }
-
- .sec-con-2{
-       width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
- }
-
- section.sec-5 .box-partners{
- 	justify-content: center;
- }
-
- .abu-arch-tl{
- 	margin-top: 20px !important;
- }
-section.sec-6 .p-box{
-	width : 100% important;
-	flex-wrap: wrap !important;
-}
- section.sec-6 .p-box .box{
- 	width: 50% !important;
- }
-
- section.sec-6 .p-box .box p,
- section.sec-6 .p-box .box h4{
- 	font-size: 13px;
- 	margin : 0;
- }
-
- section.sec-6 .box .c-box img{
- 	width: 15px;
- }
-
- section.sec-6 .p-box .box{
- 		margin-top: 10px;
- 	    align-items: unset !important;
- 	    justify-content: unset !important;
- }
-
- .vertikal-line{
- 	display: none;
- }
-
- .logo{
- 	margin : unset !important;
- }
- .logo-saff{
- 	width: 150px !important;
- }
-
- section.sec-3 .row{
-
-    display: flex;
-    flex-direction: column-reverse;
-
- }
- .abu-gal > ul > li img{
+@media screen and (max-width: 480px) {
+   section.sec-2 .body-container,
+   section.sec-4 .box-card,
+   section.sec-7 .c-box,
+   section.sec-7 .p-box {
+      flex-direction: column;
+   }
+   section.mob footer,
+   section.mob .p-box .box {
+      width: 100%;
+   }
+   section.mob .c-box,
+   .c-box-2 {
+      width: 50% !important;
+   }
+   section.mob .b3 .gp-box {
+      display: flex;
+      flex-direction: row;
+   }
+   section.mob .b3 .c-box-3 {
+      width: 100% !important;
+   }
+   section.mob .b3 .c-box-3 .gp-box {
+      overflow: hidden;
+   }
+   section.mob .p-box .b1,
+   section.mob .p-box .b2 {
+      display: flex !important;
+      flex-direction: row !important;
+   }
+   section.sec-2 .card,
+   section.sec-4 .box-card .card {
+      width: 100%;
+   }
+   section.sec-2 .card {
+      margin-right: 0;
+      margin-top: 20px;
+      height: 320px !important;
+   }
+   .sec-con-2 {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+   }
+   section.sec-5 .box-partners {
+      justify-content: center;
+   }
+   .abu-arch-tl {
+      margin-top: 20px !important;
+   }
+   section.sec-6 .p-box {
+      width: 100% important;
+      flex-wrap: wrap !important;
+   }
+   section.sec-6 .p-box .box {
+      width: 50% !important;
+   }
+   section.sec-6 .p-box .box p,
+   section.sec-6 .p-box .box h4 {
+      font-size: 13px;
+      margin: 0;
+   }
+   section.sec-6 .box .c-box img {
+      width: 15px;
+   }
+   section.sec-6 .p-box .box {
+      margin-top: 10px;
+      align-items: unset !important;
+      justify-content: unset !important;
+   }
+   .vertikal-line {
+      display: none;
+   }
+   .logo {
+      margin: unset !important;
+   }
+   .logo-saff {
+      width: 150px !important;
+   }
+   section.sec-3 .row {
+      display: flex;
+      flex-direction: column-reverse;
+   }
+   .abu-gal>ul>li img {
       width: 80%;
- }
-.abu-gal > ul > li.active img{
+   }
+   .abu-gal>ul>li.active img {
       width: 90%;
-}
- .abu-gal > ul > li:first-child,
- .abu-gal > ul > li{
- 	display: flex !important;
- 	    margin: 0 auto !important;
-    justify-content: center !important;
-    align-items: center !important;
- }
-  .abu-gal > ul > li:first-child img{
-  	width: 85% !important;
-  }
-
-  .abu-gal > ul > li{
-  	   margin-top : -100px !important;
-  }
-
-  .project-slider-area .pb-5{
-  	padding-bottom: 20px !important;
-  }
-
-  .box-holiday p{
-    font-size : 12px;
-}
-
-.box-play i{
-   font-size: 30px !important;
-}
-
-footer, footer h4{
-   color : #fff !important;
-}
-
-footer .b2{
-   flex-direction: column !important;
-}
-
-footer .b2 .pl-5{
-   padding-left: 0px !important;
-
-}
-
-footer iframe{
-   
-    width: 400px !important;
-    height: 150px !important    ;
-}
-section.mob{
-   display: flex !important;
-}
-section.desk{
-   display: none;
+   }
+   .abu-gal>ul>li:first-child,
+   .abu-gal>ul>li {
+      display: flex !important;
+      margin: 0 auto !important;
+      justify-content: center !important;
+      align-items: center !important;
+   }
+   .abu-gal>ul>li:first-child img {
+      width: 85% !important;
+   }
+   .abu-gal>ul>li {
+      margin-top: -100px !important;
+   }
+   .project-slider-area .pb-5 {
+      padding-bottom: 20px !important;
+   }
+   .box-holiday p {
+      font-size: 12px;
+   }
+   .box-play i {
+      font-size: 30px !important;
+   }
+   footer,
+   footer h4 {
+      color: #fff !important;
+   }
+   footer .b2 {
+      flex-direction: column !important;
+   }
+   footer .b2 .pl-5 {
+      padding-left: 0px !important;
+   }
+   footer iframe {
+      width: 400px !important;
+      height: 150px !important;
+   }
+   section.mob {
+      display: flex !important;
+   }
+   section.desk {
+      display: none;
+   }
+   section.sec-2 .card {
+      height: 320px important;
+   }
 }
 
-section.sec-2 .card{
-   height: 320px important;
-}
+
+/*tab responsive*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+   html {
+      zoom: 75%;
+   }
+   section.sec-2 .card {
+      width: 45%;
+      margin: 0;
+      margin-bottom: 20px;
+   }
+   .sec-con-2 .body-container {
+      justify-content: space-evenly !important;
+   }
+   .project-slider-area .ab-arch .row {
+      display: flex !important;
+      flex-direction: column-reverse !important;
+   }
+   .project-slider-area .ab-arch .row .col-md-6 {
+      width: 100% !important;
+   }
+   .abu-arch-tl {
+      margin-top: 20px !important;
+   }
+   footer iframe {
+      width: 450px !important;
+   }
+   .abu-gal>ul>li:nth-child(2) {
+      float: left !important;
+      margin-top: 0 !important;
+      position: absolute !important;
+      left: 300px !important;
+   }
+   .abu-gal {
+      position: relative !important;
+   }
 }

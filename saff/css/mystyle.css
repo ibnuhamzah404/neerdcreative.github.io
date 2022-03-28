@@ -1,9 +1,8 @@
-section.mob{
-   display: none;
+section.mob {
+    display: none;
 }
 
-.font-me{
-       
+.font-me {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     margin-top: 0;
@@ -11,146 +10,130 @@ section.mob{
 }
 
 section.sec-2 {
-    margin : 0 !important;
+    margin: 0 !important;
 }
-section.sec-2 .head-container{
-    background: #53c0a3;;
-    color : #fff;
+
+section.sec-2 .head-container {
+    background: #53c0a3;
+    ;
+    color: #fff;
     text-align: center;
 }
-section.sec-2{
-     background: #F0F0F0;
+
+section.sec-2 {
+    background: #F0F0F0;
 }
-section.sec-2 .head-container h2{
-    color : #fff;
-    padding : 10px 0px;
+
+section.sec-2 .head-container h2 {
+    color: #fff;
+    padding: 10px 0px;
     margin-bottom: 0px;
 }
 
-section.sec-2 .body-container{
+section.sec-2 .body-container {
     overflow-x: hidden;
-    height : max-content;
+    height: max-content;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 30px 0px;
-
 }
 
-section.sec-2 .card{
+section.sec-2 .card {
     background: #fff;
     height: 400px;
-    width : 22%;
+    width: 22%;
     margin-right: 2%;
     overflow: hidden;
-     position: relative;
-     justify-content: center;
-
-}
-section.sec-2 .card .img1{
- position: relative;
-  top: 0;
+    position: relative;
+    justify-content: center;
 }
 
-section.sec-2 .card .abs-div{
+section.sec-2 .card .img1 {
+    position: relative;
+    top: 0;
+}
+
+section.sec-2 .card .abs-div {
     display: flex;
     justify-content: center;
     position: absolute;
     right: 0;
     left: 0;
-    margin : 0 auto;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 90%;
-   
-   
-
-
-
-    
 }
 
-section.sec-2 .card .abs-div img{
- 
+section.sec-2 .card .abs-div img {
     width: 50%;
-  
 }
 
-section.sec-2 .card:hover{
+section.sec-2 .card:hover {
     cursor: pointer;
-     transition: transform 0.5s;
-   transform: translateY(-20px);
-
+    transition: transform 0.5s;
+    transform: translateY(-20px);
 }
 
-section.sec-2 .card .text{
-  bottom: 0;
-   color: #fff;
-
-   position: absolute;
-
+section.sec-2 .card .text {
+    bottom: 0;
+    color: #fff;
+    position: absolute;
 }
-section.sec-2 .card:last-child{
+
+section.sec-2 .card:last-child {
     margin-right: unset !important;
 }
 
-div.con-2{
+div.con-2 {
     background: #fff;
 }
 
- div.hr{
-    margin : 0 auto;
+div.hr {
+    margin: 0 auto;
     width: 80%;
     height: 4px;
     font-weight: bold;
     background: #39709C;
 }
 
-section.sec-3{
+section.sec-3 {
     background: #fff;
 }
 
-section.sec-3 .box-holiday{
+section.sec-3 .box-holiday {
     background-color: #39709C;
     height: 250px;
-    border-radius : 0 20px 20px 0;
+    border-radius: 0 20px 20px 0;
     display: flex;
     align-items: center;
-
-
-    
-
 }
-
 
 section.sec-3 .box-img {
-     position: relative;
-  top: 0;
-  left: 0;
-
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
-section.sec-3 .box-img .img1{
-  position: relative;
-  top: 0;
-  left: 0;
- 
+section.sec-3 .box-img .img1 {
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
-section.sec-3 .box-img .abs-div img:hover{
-   height : 150px;
-   cursor: pointer;
-
+section.sec-3 .box-img .abs-div img:hover {
+    height: 150px;
+    cursor: pointer;
 }
 
-section.sec-3 .box-img .abs-div{
-   position: absolute;
-  top: 0;
-  left: 0;
-
-  width: 100px;
+section.sec-3 .box-img .abs-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
     align-items: center;
     width: 100%;
     height: 100%;
@@ -158,65 +141,65 @@ section.sec-3 .box-img .abs-div{
     justify-content: center;
 }
 
-section.sec-3 .box-img .abs-div img{
+section.sec-3 .box-img .abs-div img {
     width: auto;
-    height: 120px;}
-section.sec-3 .box-holiday h2,section.sec-3 .box-holiday p{
-    color : #fff;
-}
-.box-holiday p{
-    font-size : 12px;
+    height: 120px;
 }
 
-section.sec-3 .box-holiday .content{
+section.sec-3 .box-holiday h2,
+section.sec-3 .box-holiday p {
+    color: #fff;
+}
 
+.box-holiday p {
+    font-size: 12px;
+}
 
+section.sec-3 .box-holiday .content {
     width: 80%;
     padding-left: 10%;
-    
 }
 
-.box-play{
+.box-play {
     width: 20%;
     display: flex;
     justify-content: center;
 }
 
-.box-play i:hover{
+.box-play i:hover {
     cursor: pointer;
     font-size: 60px;
 }
 
-
-section.sec-3  .box-img{
-
+section.sec-3 .box-img {
     overflow: hidden;
     height: 300px;
     border-radius: 20px;
 }
 
-section.sec-3  .box-img img{
+section.sec-3 .box-img img {
     width: 100%;
     height: auto;
 }
-section.sec-4{
+
+section.sec-4 {
     background: #fff;
 }
-section.sec-4 .box-card{
+
+section.sec-4 .box-card {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  
 }
 
-section.sec-4 .box-card .card{
+section.sec-4 .box-card .card {
     width: 30%;
     height: fit-content;
-  border : 0px !important;
+    border: 0px !important;
     margin-right: 3%;
 }
 
-section.sec-4 .box-card .card:last-child{
+section.sec-4 .box-card .card:last-child {
     margin-right: unset !important;
 }
 
@@ -224,227 +207,236 @@ section.sec-4 .box-card .card-body h2,
 section.sec-4 .box-card .card-body p,
 section.sec-4 .box-card .c-footer a,
 section.sec-5 h3,
-section.sec-6 .p-box .box p{
-    color : #39709C;
+section.sec-6 .p-box .box p {
+    color: #39709C;
 }
 
-section.sec-4 .box-card .c-header{
+section.sec-4 .box-card .c-header {
     overflow: hidden;
 }
 
-section.sec-4 .box-card .c-header img{
+section.sec-4 .box-card .c-header img {
     width: 100%;
 }
 
-section.sec-4 .box-card .c-footer a{
-    padding : 20px;
+section.sec-4 .box-card .c-footer a {
+    padding: 20px;
 }
+
 section.sec-4 .box-card .c-footer {
     display: flex;
     justify-content: end;
 }
 
-section.sec-5{
+section.sec-5 {
     padding-bottom: 20px;
     background: #fff;
     height: auto;
 }
-section.sec-5 h3{
-    text-align : center;
+
+section.sec-5 h3 {
+    text-align: center;
 }
 
-section.sec-5 .box-partners{
-  
+section.sec-5 .box-partners {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
 
-section.sec-5 .box-partners .box{
-   
+section.sec-5 .box-partners .box {
     margin-right: 20px;
     margin-top: 20px;
-
 }
 
-section.sec-6{
+section.sec-6 {
     background-color: #F0F0F0;
 }
-section.sec-6 .box .c-box img{
+
+section.sec-6 .box .c-box img {
     width: 30px;
     margin-right: 10px;
 }
-section.sec-6 .p-box{
-    display: flex;
-    padding : 30px 0px;
-    justify-content: center;
 
+section.sec-6 .p-box {
+    display: flex;
+    padding: 30px 0px;
+    justify-content: center;
 }
 
-section.sec-6 .p-box .box{
+section.sec-6 .p-box .box {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-section.sec-6 .p-box .box p{
+section.sec-6 .p-box .box p {
     font-size: 18px;
     font-weight: bold;
 }
 
-section.sec-6 .p-box .box h4{
+section.sec-6 .p-box .box h4 {
     font-weight: unset;
 }
 
-section.sec-6 .vertikal-line{
+section.sec-6 .vertikal-line {
     width: 2px;
     height: 60px;
     background-color: black;
-    margin :  0px 20px;
+    margin: 0px 20px;
 }
 
-section.sec-7{
-    background-color:#53C0A3 ;
+section.sec-7 {
+    background-color: #53C0A3;
 }
 
-
-section.sec-7  .p-box{
-    padding : 50px 0px;
+section.sec-7 .p-box {
+    padding: 50px 0px;
     display: flex;
 }
 
-section.sec-7  .p-box .b1{
+section.sec-7 .p-box .b1 {
     width: 30%;
 }
 
-section.sec-7  .p-box .b2{
+section.sec-7 .p-box .b2 {
     width: 70%;
 }
 
-
-section.sec-7  .c-box{
+section.sec-7 .c-box {
     display: flex;
-    
 }
-section.sec-7  .c-box-2{
+
+section.sec-7 .c-box-2 {
     padding-top: 20px;
 }
-section.sec-7  .c-box-2 p{
+
+section.sec-7 .c-box-2 p {
     color: #fff;
     display: block;
-    margin : 0 ;
-padding: 0;
-font-size: 13px;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
 }
 
-
-section.sec-7  .c-box .gp-box img{
+section.sec-7 .c-box .gp-box img {
     width: 80px;
     margin-right: 20px;
 }
-section.sec-7  .p-box .b2 .c-box{
+
+section.sec-7 .p-box .b2 .c-box {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
-section.sec-7  .p-box .b2 .c-box h4 
-{
+
+section.sec-7 .p-box .b2 .c-box h4 {
     display: inline-block;
     color: #fff;
     margin-top: 2px;
-
 }
 
-section.sec-7  .p-box .b2 .c-box a{
+section.sec-7 .p-box .b2 .c-box a {
     color: #aee2d4;
 }
 
-footer iframe{
-   
+footer iframe {
     width: 600px !important;
-    height: 250px !important    ;
+    height: 250px !important;
 }
+
 
 /*search*/
+
+
 /* The overlay effect with black background */
+
 .overlay {
-  height: 100%;
-  width: 100%;
-  display: none;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9); /* Black with a little bit see-through */
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black with a little bit see-through */
 }
+
 
 /* The content */
+
 .overlay-content {
-  position: relative;
-  top: 46%;
-  width: 80%;
-  text-align: center;
-  margin-top: 30px;
-  margin: auto;
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
 }
 
+
 /* Close button */
+
 .overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-  cursor: pointer;
-  color: white;
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    cursor: pointer;
+    color: white;
 }
 
 .overlay .closebtn:hover {
-  color: #ccc;
+    color: #ccc;
 }
 
+
 /* Style the search field */
+
 .overlay input[type=text] {
-  padding: 15px;
-  font-size: 17px;
-  border: none;
-  float: left;
-  width: 80%;
-  background: white;
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
 }
 
 .overlay input[type=text]:hover {
-  background: #f1f1f1;
+    background: #f1f1f1;
 }
 
+
 /* Style the submit button */
+
 .overlay button {
-  float: left;
-  width: 20%;
-  padding: 15px;
-  background: #ddd;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
 }
 
 .overlay button:hover {
-  background: #bbb;
+    background: #bbb;
 }
 
 .box-search {
-    position : absolute; right  : 0;
+    position: absolute;
+    right: 0;
     display: flex;
-
     justify-content: center;
-    padding : 0px 20px;
+    padding: 0px 20px;
 }
 
-.header-navigation-area{
-     display: flex;
+.header-navigation-area {
+    display: flex;
     position: relative;
     /* justify-content: center; */
     align-items: center;
     /* right: 0; */
 }
-   
