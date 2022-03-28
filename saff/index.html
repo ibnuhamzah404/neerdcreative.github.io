@@ -14,6 +14,7 @@
     <meta name="language" content="Indonesia">
     <!-- Favicon -->
     <link rel="icon" href="img/favicon.ico">
+
  <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -118,10 +119,14 @@
                                                 </ul>
                                             </li>
                                             <li><a href="#">CORPORATE</a></li>
-    
+                
                                         </ul>
+                                        
                                     </nav>
+
                                 </div>
+                                <button class="openBtn"  onclick="openSearch()" style="    background: none;
+    border: none;"><i class="fa fa-search text-white" style="font-size: 23px;" > </i></button>
                             </div>
                         </div>
                     </div>
@@ -595,6 +600,7 @@
                         </li>
                        
                     </ul>
+
                 </nav>
 
 
@@ -694,6 +700,17 @@
         });
 
     </script>   
+
+
+<script>
+function openSearch() {
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function closeSearch() {
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
     
 
 </body>
@@ -721,3 +738,14 @@
     </div>
   </div>
 </div>
+
+<div id="myOverlay" class="overlay">
+  <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+  <div class="overlay-content">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+
