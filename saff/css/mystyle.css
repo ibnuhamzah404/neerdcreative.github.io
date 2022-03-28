@@ -1,3 +1,7 @@
+section.mob{
+   display: none;
+}
+
 .font-me{
        
     font-family: "Roboto", sans-serif;
@@ -36,7 +40,7 @@ section.sec-2 .body-container{
 
 section.sec-2 .card{
     background: #fff;
-    height: 320px;
+    height: 400px;
     width : 22%;
     margin-right: 2%;
     overflow: hidden;

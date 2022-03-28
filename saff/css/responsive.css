@@ -6,8 +6,39 @@
 
 		section.sec-2 .body-container,
 section.sec-4 .box-card,
-section.sec-7 .c-box{
+section.sec-7 .c-box,
+section.sec-7 .p-box{
 	flex-direction: column;
+}
+
+section.mob footer,
+section.mob .p-box .box{
+   width: 100%;
+ 
+
+}
+
+section.mob .c-box,  .c-box-2{
+   width : 50% !important;
+}
+
+section.mob .b3 .gp-box{
+   display: flex;
+   flex-direction: row;
+}
+
+section.mob .b3 .c-box-3{
+   width: 100% !important;
+   
+}
+
+section.mob .b3 .c-box-3 .gp-box{
+   overflow: hidden;
+}
+section.mob .p-box .b1,
+section.mob .p-box .b2{
+   display: flex !important;
+   flex-direction: row !important;
 }
 
 
@@ -111,6 +142,9 @@ section.sec-6 .p-box{
    font-size: 30px !important;
 }
 
+footer, h4{
+   color : #fff !important;
+}
 footer .b2{
    flex-direction: column !important;
 }
@@ -122,7 +156,17 @@ footer .b2 .pl-5{
 
 footer iframe{
    
-    width: 250px !important;
+    width: 400px !important;
     height: 150px !important    ;
+}
+section.mob{
+   display: flex !important;
+}
+section.desk{
+   display: none;
+}
+
+section.sec-2 .card{
+   height: 320px important;
 }
 }
