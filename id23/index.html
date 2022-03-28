@@ -85,7 +85,7 @@
    <script type="text/javascript">
     function today(minday) {
         const d = new Date();
-        let month = d.getMonth();
+        let month = d.getMonth() + 1;
         let day = d.getDate();
         let year = d.getFullYear();
         if(day <= 10 ){
@@ -956,7 +956,9 @@
       <footer>
         <div id="mplus-footer">
           <div class="footer2">
-            <div class="address"><span>© Medicine Indonesia, 2021 </span></div>
+            <div class="address"><span>© Medicine Indonesia,  <script>  const d = new Date();
+        
+        let year = d.getFullYear(); document.write(year)</script> </span></div>
             <div class="return-top" style="display: none">
               <a
                 href="#pesan"
