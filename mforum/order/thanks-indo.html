@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Agar berhasil!</title>
+  <link href="home.css" rel="stylesheet">
+  <style>
+    .thankyou {
+      font-family: arial;
+      font-size: 24px !important;
+      border-radius: 4px;
+      background-color: #000000;
+      /* color: #fff; */
+      padding: 50px 30px;
+      text-align: center;
+      line-height: 1.8em;
+    }
+    html, body, #app {
+      min-height: 100%;
+      height: 100%;
+    }
+    .thanks-section {
+      min-height: calc(100% - 200px);
+      padding-top: 10%;
+      background: #ebedf1;
+    }
+    .thanks-section h1 {
+      color: #ffde00;
+    }
+    .thanks-section p {
+      color: white;
+    }
+  </style>
+  
+  <script>KTracking.reportConversion(0,'lead','tid');</script>
+  </head>
+<body>
+  <section class="thanks-section">
+    <div class="container">
+
+     
+
+      <div class="col-md-12  text-center">
+        <div class="thankyou">
+          <h1><i class="fa fa-check-circle-o"></i>Terimakasih, pesanan anda telah dikonfirmasi!</h1>
+          <p>
+            Mohon untuk memeriksa kembali data yang anda input
+          </p>
+          <p>Apabila terdapat kesalahan , silahkan masukkan kembali data yang benar 
+      <!-- In the line below add user name and phone number that was sent to the server-->
+          <h1><i class="fa fa-check-circle-o"></i><span id="user_name">Name</span> <p> <span id="user_telp">1234567890</span></h1></p>
+          <a class="btn btn-info" href="javascript:history.back()">Kembali</a>
+        </div>
+      </div>                
+    </div>
+  </section>
+    <script type="text/javascript">
+      
+    // thank you page
+  var getUrlParameter = function getUrlParameter(sParam) {
+        var sPageURL = window.location.search.substring(1),
+            sURLVariables = sPageURL.split('&'),
+            sParameterName,
+            i;
+
+        for (i = 0; i < sURLVariables.length; i++) {
+            sParameterName = sURLVariables[i].split('=');
+
+            if (sParameterName[0] === sParam) {
+                return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+            }
+        }
+    };
+
+    var name = getUrlParameter('name');
+    var telp = getUrlParameter('phone');
+    var page = getUrlParameter('page');
+    document.getElementById('user_name').innerHTML = name;
+    document.getElementById('user_telp').innerHTML = telp;
+    document.getElementById('user_page').innerHTML = page;
+  </script>
+</body>
+</html>
