@@ -57,7 +57,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,secti
 }
 
 img {
-    max-width: 100%;
+    max-width: 65%;
     height: auto;
     vertical-align: middle
 }
