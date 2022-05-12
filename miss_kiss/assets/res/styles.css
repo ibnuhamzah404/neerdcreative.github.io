@@ -73,7 +73,7 @@ html {
 body {
     font-family: "Montserrat",sans-serif;
     line-height: 1.4;
-    font-size: 14px
+    font-size: 17px
 }
 
 *,::after,::before {
@@ -211,20 +211,20 @@ p:first-child {
 }
 
 .author__name {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 700;
     letter-spacing: .3px
 }
 
 .author__status {
     color: #282d32;
-    font-size: 10px;
+    font-size: 18px;
     font-weight: 700
 }
 
 .author__extra {
     font-weight: 700;
-    font-size: 11px
+    font-size: 14px
 }
 
 .like {
