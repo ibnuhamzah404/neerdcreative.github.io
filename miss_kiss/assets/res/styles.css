@@ -57,7 +57,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,secti
 }
 
 img {
-    max-width: 65%;
+    max-width: 100%;
     height: auto;
     vertical-align: middle
 }
@@ -111,10 +111,9 @@ a:hover {
 }
 
 .wrapper {
-    max-width: 320px;
+      max-width: 90%;
     margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 10px
+  
 }
 
 .text-right {
@@ -202,12 +201,11 @@ p:first-child {
 }
 
 .author__left {
-    width: 50px
+       width: 25%;
 }
 
 .author__right {
-    width: -webkit-calc(100% - 50px);
-    width: calc(100% - 50px);
+      width: 75%;
     font-size: 14px;
     padding-left: 10px
 }
