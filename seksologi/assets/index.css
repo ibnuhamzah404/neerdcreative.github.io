@@ -403,14 +403,16 @@ p {
 }
 
 .go-to-site {
+	    padding: 10px 20px;
+	width: max-content;
 	cursor: pointer;
-	font-size: 20px;
+	font-size: 28px;
 	min-width: 50%;
 	line-height: 1.2;
 	font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
 	position: relative;
 	display: inline-block;
-	padding: 10px 12px;
+
 	vertical-align: middle;
 	text-align: center;
 	text-shadow: 0 -1px 1px #777;
@@ -418,8 +420,8 @@ p {
 	text-decoration: none!important;
 	outline: none;
 	border-radius: 5px;
-	border: 2px solid #f42913;
-	box-shadow: .1em .1em .2em #800;
+	/*border: 2px solid #f42913;*/
+/*	box-shadow: .1em .1em .2em #800;*/
 	background: #0a78c2;
 	background: -moz-linear-gradient(top, #0a78c2 0%, #0a78c2 53%, #0a54c2 86%, #0a54c2 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0a78c2), color-stop(53%, #0a78c2), color-stop(86%, #0a54c2), color-stop(100%, #0a54c2));
