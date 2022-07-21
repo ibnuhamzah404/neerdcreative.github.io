@@ -4,4 +4,22 @@
   .cursor-text{
   	font-size: 11px !important;
   }
+
+}
+
+.harga {
+    text-align: center;
+    font-weight: bold;
+}
+
+.h-promo {
+    font-size: 24px;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.harga_lama {
+    text-decoration: line-through;
+    font-size: 20px;
+    margin: 0px !important;
+    padding: 0px !important;
 }
