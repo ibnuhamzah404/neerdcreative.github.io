@@ -1,0 +1,373 @@
+#order_form {
+	background: white;
+	padding: 20px;
+	max-width: 600px;
+	font-family: Arial;
+	margin: 20px;
+	background-image: url(../img/formbg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+	margin: 0 auto;
+}
+
+#order_form div {
+	background: transparent !important;
+}
+
+#order_form h2 {
+	margin: 25px 0 0 0;
+	padding: 0px;
+	line-height: 32px;
+	border: none;
+}
+
+#order_form label {
+	width: auto;
+	display: block;
+	padding: 5px 0 5px 0;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#order_form label.vertical {
+	border: none !important;
+}
+
+.device_info {
+	font-size: 14px;
+	color: green;
+	display: block;
+	margin: 10px 20px;
+}
+
+#order_form .order_form_pole {
+	padding: 10px;
+	margin: 10px;
+
+	text-align: center;
+}
+
+#order_form input {
+	font-size: 21px;
+	padding: 15px;
+	border-radius: 3px;
+	border: 2px solid #e9d7dc;
+	max-width: 300px;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+#order_form select {
+	font-size: 21px;
+	padding: 15px;
+	border-radius: 3px;
+	border: 2px solid #e9d7dc;
+	max-width: 334px;
+	width: 100%;
+}
+
+#order_form span {
+	font-size: 12px;
+}
+
+#order_form .center {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#order_form button,
+.obutton {
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+	min-width: 200px;
+	color: #fff;
+	font-weight: 700;
+	text-decoration: none;
+	box-shadow: 0 4px 15px 0 rgba(129, 150, 160, 0.45);
+	border-radius: 5px;
+	background-color: #0299ff;
+	background-position: 1.35em .94em;
+	background-size: 1em;
+	background-repeat: no-repeat;
+	transition: all .15s ease-in-out;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+#order_form button:hover,
+.obutton:hover {
+	background-color: #017ACC;
+}
+
+#order_form button:active {
+	position: relative;
+	top: 1px;
+}
+
+.order_info h2 {
+	border: none !important;
+	color: red !important;
+}
+
+.left_count {
+	background: red;
+	padding: 23px;
+	margin: 12px 0px;
+	width: 178px;
+	color: #fff;
+	text-shadow: 0 -1px 0 #000000, 0 -1px 0 #000000, 0 1px 0 #000000, 0 1px 0 #000000, -1px 0 0 #000000, 1px 0 0 #000000, -1px 0 0 #000000, 1px 0 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+	font-size: 32px !important;
+	border-radius: 5px;
+}
+
+.left_count .prod_left_val {
+	font-size: 52px !important;
+}
+
+#order_form_success {
+	position: relative;
+}
+
+@media screen and (max-width: 480px) {
+	#order_form label {
+		font-size: 14px;
+	}
+
+	#order_form button {
+		font-size: 16px;
+	}
+
+	#order_form {
+		padding: 10px;
+	}
+
+	#order_form .order_form_pole {
+		padding: 0px;
+		margin: 2px;
+	}
+}
+
+@media screen and (max-width: 459px) {
+	#order_form input {
+		width: 80%;
+	}
+
+	#order_form select {
+		width: 90.5%;
+		height: 53px;
+	}
+	#footer img {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 349px) {
+	#order_form input {
+		font-size: 17px;
+	}
+}
+
+.submit-form,a.button {
+	animation: 1s pulse infinite alternate ease-in-out;
+}
+
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale(1.0);-ms-transform: scale(1.0);transform: scale(1.0);
+    }
+
+    100% {
+        -webkit-transform: scale(0.95);-ms-transform: scale(0.95);transform: scale(0.95);
+    }
+}
+
+.submit-form:after {
+    display: inline-block;
+    -webkit-animation: dotty steps(1,end) 1.5s infinite;
+            animation: dotty steps(1,end) 1.5s infinite;
+    
+    position:absolute;
+    margin-left:10px;
+  }
+  
+  @-webkit-keyframes dotty {
+    0%   { content: ''; }
+    25%  { content: '>'; }
+    50%  { content: '>>'; }
+    75%  { content: '>>>'; }
+    100% { content: ''; }
+  }
+  
+  @keyframes dotty {
+    0%   { content: ''; }
+    25%  { content: '>'; }
+    50%  { content: '>>'; }
+    75%  { content: '>>>'; }
+    100% { content: ''; }
+  }
+
+.top p {
+    font-size: 14px;
+    color: red;
+    font-style: italic;
+    text-align: center;
+}
+
+.price p {
+	font-size: 14px!important;
+    margin: 0;
+    line-height: 30px!important;
+    text-align: center;
+}
+
+.price p span.new {
+    font-size: 22px!important;
+    font-weight: 700;
+    color: #0299ff;
+}
+
+.price p span.old {
+    font-size: 18px!important;
+    font-weight: 700;
+    color: rgb(178, 178, 178);
+    text-decoration: line-through;
+}
+
+.frame {
+    margin: 25px 10px 5px ;
+    border: 2px solid #0299ff;
+    padding: 10px;
+}
+
+ .frame p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 0;
+    line-height: 1.5;
+}
+
+/*----comeback---*/
+.comeback_layout {
+    display: none;
+    position: fixed;
+    color: #000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 20000000;
+    background: rgba(0, 0, 0, .75);
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    font-family: Arial,sans-serif;
+}
+
+.comeback_layout::-webkit-scrollbar {
+   width: 0
+}
+
+.comeback_wrapper {
+   width: 100%;
+   max-width: 550px;
+   margin: 0 auto
+}
+
+.comeback_container {
+   background: #fff;
+   padding: 25px;
+   margin-top: 2%;
+   text-align: center
+}
+
+.comeback_container h1 {
+   font-size: 23px;
+   margin: 0 auto;
+   width: 300px;
+   text-align: center;
+}
+
+.comeback_container .form-group {
+   width: 90%;
+   max-width: 400px;
+   margin: 0 auto;
+   text-align: left
+}
+
+.comeback_container .btn {
+   display: block;
+   width: 240px;
+   color: #fff;
+   background: #f82a5e;
+   text-transform: uppercase;
+   padding: 10px 0;
+   font-size: 19px;
+   font-weight: 400;
+   line-height: 1.42857143;
+   text-align: center;
+   vertical-align: middle;
+   border: 1px solid transparent;
+   border-radius: 4px;
+   margin: 0 auto;
+   text-decoration: none
+}
+
+.comeback_img {
+   width: 80%;
+   margin: 10px auto;
+   max-width: 250px
+}
+.comeback_img_sml {
+   width: 50%;
+   margin: 10px auto;
+   max-width: 250px
+}
+
+.form-horizontal span {
+   display: block;
+   margin: 20px 0
+}
+
+.comeback_close {
+   float: right;
+   cursor: pointer
+}
+
+#comeback p {
+   font-size: 16px;
+   margin: 15px 50px 0;
+   line-height: 25px;
+}
+
+@media (max-width: 700px) {
+   .comeback_container h1 {
+       line-height: 18px;
+       font-size: 16px
+   }
+
+   .comeback_img {
+       margin: 5px auto
+   }
+
+   .comeback_container p {
+       line-height: 14px;
+       font-size: 15px
+   }
+
+   .comeback_container {
+       padding: 5px
+   }
+
+   #order0.active {
+	   position: relative;
+	   top: 300px;
+   }
+}
