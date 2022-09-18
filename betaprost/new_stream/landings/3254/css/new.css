@@ -1,3 +1,8 @@
+.inL_271278 {
+    font-size: 30px;
+    color: #F6412D;
+}
+
 .mb-15 {
   margin-bottom: 15px;
 }
@@ -33,7 +38,7 @@
 .main-content > p {
   padding: 0 20px;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 23px;
 }
 .main-content > p span {
@@ -51,7 +56,7 @@
   text-align: center;
   margin: 0 auto;
   max-width: 610px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 18px;
   font-style: italic;
   font-weight: 700;
@@ -129,7 +134,7 @@ span.violet {
 
 .excl {
   margin: 0 20px;
-  background: #2e4b83;
+  background: #20409A;
   color: #fff;
   font-size: 18px;
   line-height: 23px;
@@ -257,7 +262,7 @@ a {
 }
 
 .effects {
-  background: linear-gradient(117.36deg, #3262be 2.35%, #21417d 99.66%);
+  background: linear-gradient(117.36deg, #3262be 2.35%, #20409A 99.66%);
   color: #fff;
   margin-bottom: 30px;
 }
@@ -351,7 +356,7 @@ a {
 
 .conditions {
   margin: 0 20px;
-  margin-bottom: 30px;
+  
   padding-top: 35px;
   background: #faf1f1;
 }
@@ -512,6 +517,7 @@ a {
   width: 100%;
 }
 .button-wa {
+
   padding: 20px;
   color: #fff;
   font-weight: 700;
@@ -525,11 +531,11 @@ a {
   transition: all 0.15s ease-in-out;
   border: none;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 20px;
   box-sizing: border-box;
   width: auto;
-  margin-bottom: 40px;
+ 
 }
 .button-wa {
   animation: glowingBlue 2000ms infinite both;
@@ -595,7 +601,7 @@ a {
   .answer p {
     padding-left: 50px;
     padding-right: 10px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
   }
   .excl {
@@ -613,7 +619,7 @@ a {
     padding: 15px;
   }
   .quotes li {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
   }
   .effects__container {

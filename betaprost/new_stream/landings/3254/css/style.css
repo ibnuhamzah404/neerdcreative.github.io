@@ -72,7 +72,7 @@ p {
 }
 .header-top {
   padding: 6px 0 4px;
-  background: #2e4b83;
+  background: #20409A;
   -webkit-box-shadow: 0 0 17px rgba(166, 181, 210, 0.29);
   box-shadow: 0 0 17px rgba(166, 181, 210, 0.29);
   overflow: hidden;
@@ -174,7 +174,7 @@ p {
   font-weight: 900;
   font-size: 28px;
   display: block;
-  background: #2e4b83;
+  background: #20409A;
   position: relative;
   color: #fff;
   text-transform: uppercase;
@@ -187,7 +187,7 @@ p {
 .logo-blue:after,
 .logo-blue:before {
   content: '';
-  border-bottom: 32px solid #2e4b83;
+  border-bottom: 32px solid #20409A;
   border-left: 10px solid transparent;
   position: absolute;
   top: 0;
@@ -319,7 +319,7 @@ p {
   text-decoration: underline;
 }
 .bottom-menu a.current {
-  background: #2e4b83;
+  background: #20409A;
   color: #fff;
 }
 .b-search {
@@ -452,7 +452,7 @@ p {
 .all-news {
   font-size: 12px;
   color: #fff;
-  background: #2e4b83;
+  background: #20409A;
   text-align: center;
   text-transform: uppercase;
   display: block;
@@ -524,13 +524,13 @@ p {
   box-shadow: 0 0 17px rgba(166, 181, 210, 0.29);
 }
 .b-tags {
-  border-top: 3px solid #2e4b83;
+  border-top: 3px solid #20409A;
   margin-bottom: 10px;
 }
 .b-tags > span {
   display: inline-block;
   color: #fff;
-  background: #2e4b83;
+  background: #20409A;
   position: relative;
   font-weight: 700;
   font-size: 16px;
@@ -539,7 +539,7 @@ p {
 .b-tags > span:after {
   content: '';
   position: absolute;
-  border-top: 33px solid #2e4b83;
+  border-top: 33px solid #20409A;
   border-right: 10px solid transparent;
   top: 0;
   right: -10px;
@@ -659,7 +659,7 @@ h1 {
     display: block !important;
   }
   .header-middle {
-    background: #2e4b83;
+    background: #20409A;
     margin-top: 5px;
     padding: 0;
   }
@@ -672,7 +672,7 @@ h1 {
   }
   .b-logo:before {
     content: '';
-    border-left: 14px solid #2e4b83;
+    border-left: 14px solid #20409A;
     border-top: 11px solid transparent;
     border-bottom: 40px solid transparent;
     position: absolute;
@@ -684,7 +684,7 @@ h1 {
   }
   .b-logo:after {
     content: '';
-    border-right: 14px solid #2e4b83;
+    border-right: 14px solid #20409A;
     border-top: 50px solid transparent;
     position: absolute;
     right: -2px;
