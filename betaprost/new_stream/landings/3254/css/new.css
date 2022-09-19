@@ -182,7 +182,7 @@ a {
   font-weight: 700;
   max-width: 80%;
   margin: 0 auto;
-  margin-bottom: 30px;
+ 
 }
 .red-link:hover {
   text-decoration: underline;
@@ -216,7 +216,7 @@ a {
 .quotes {
   margin: 0 20px;
   margin-bottom: 30px;
-  padding-top: 50px;
+
   background: url(../img/quote_open.png) top left 15px no-repeat;
   background-size: 185px;
 }
