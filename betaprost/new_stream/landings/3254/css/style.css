@@ -144,8 +144,8 @@ p {
   margin-left: 5px;
 }
 .logo-red {
-  color: #fff;
-  background: #ed1b28;
+  color: #ed1b28;
+  background: black;
   display: inline-block;
   position: relative;
   font-size: 15px;
@@ -156,7 +156,7 @@ p {
 .logo-red:after,
 .logo-red:before {
   content: '';
-  border-top: 17px solid #ed1b28;
+  border-top: 17px solid black;
   border-left: 6px solid transparent;
   position: absolute;
   top: 0;

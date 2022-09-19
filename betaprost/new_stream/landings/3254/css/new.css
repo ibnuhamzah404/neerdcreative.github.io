@@ -1,6 +1,10 @@
 .inL_271278 {
-    font-size: 30px;
-    color: #F6412D;
+    font-size: 26px;
+    color: black;
+}
+
+.new-price{
+  font-size: 29px !important;
 }
 
 .mb-15 {
@@ -517,7 +521,7 @@ a {
   width: 100%;
 }
 .button-wa {
-
+  text-align: center;
   padding: 20px;
   color: #fff;
   font-weight: 700;
@@ -531,7 +535,7 @@ a {
   transition: all 0.15s ease-in-out;
   border: none;
   cursor: pointer;
-  font-size: 25px;
+  font-size: 30px;
   margin-top: 20px;
   box-sizing: border-box;
   width: auto;
@@ -699,7 +703,7 @@ a {
 .text-center .btn {
   border-radius: 15px;
   min-width: 340px;
-  font-size: 22px;
+  font-size: 30px;
   line-height: 30px;
   background: linear-gradient(
     149deg,
