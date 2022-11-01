@@ -12,7 +12,7 @@ li {
 	margin: 0;
 	padding: 0;
 	border: 0 none;
-	font-family: ui-monospace;
+	font-family: Roboto, sans-serif;
 	font-style: inherit;
 	font-weight: inherit;
 	line-height: inherit;
@@ -181,6 +181,7 @@ body.mode-adaptive {
 
 .logo-text {
 	top: 30%;
+	left : 2%;
 	color: black;
 	font-weight: 600;
 	font-size: 22px;
