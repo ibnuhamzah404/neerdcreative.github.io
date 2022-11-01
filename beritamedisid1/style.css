@@ -12,7 +12,7 @@ li {
 	margin: 0;
 	padding: 0;
 	border: 0 none;
-	font-family: inherit;
+	font-family: ui-monospace;
 	font-style: inherit;
 	font-weight: inherit;
 	line-height: inherit;
@@ -180,8 +180,8 @@ body.mode-adaptive {
 }
 
 .logo-text {
-	top: 24%;
-	color: #F6E20A;
+	top: 30%;
+	color: black;
 	font-weight: 600;
 	font-size: 22px;
 	position: absolute;
@@ -420,6 +420,10 @@ body.mode-adaptive {
 .b-header .l-page-width .l-page-width__ledge {
 	background: rgb(244, 244, 244) none repeat scroll 0% 0%;
 	position: relative;
+	background-image: url("header-bcg.jpg");
+	  background-repeat: no-repeat;
+	width: 100%;
+
 }
 
 .b-header .b-header__bg-img {
@@ -945,10 +949,10 @@ body.mode-adaptive {
 }
 
 .b-comments .b-comments__button-comment a {
-	background: transparent none repeat scroll 0 center;
+	background: #0A3ACA;
 	display: inline-block;
-	border: 2px solid rgb(255 120 0);
-	color: rgb(255 120 0);
+	
+	color: #fff;
 	padding: 0 0.75em 0.19em;
 	line-height: 1.4;
 	cursor: pointer;
@@ -964,11 +968,7 @@ body.mode-adaptive {
 	text-transform: uppercase;
 }
 
-.b-comments .b-comments__button-comment a:hover {
-	text-decoration: none;
-	background: #F15921 none repeat scroll 0% 0%;
-	color: rgb(244, 244, 244);
-}
+
 
 .b-comments .b-comments__create-top-place {
 	position: relative;
@@ -1078,7 +1078,7 @@ body.mode-adaptive {
 .b-comments .b-comments__list .b-comments__item .b-comments__item-info .b-comments__item-time {
 	float: left;
 	font-weight: 700;
-	color: rgb(98, 167, 217);
+	color: #0A3ACA;
 	margin-right: 0.5em;
 }
 
@@ -1089,7 +1089,7 @@ body.mode-adaptive {
 .b-comments .b-comments__list .b-comments__item .b-comments__item-info .b-comments__item-date {
 	float: left;
 	font-weight: 600;
-	color: rgb(98, 167, 217);
+	color: #0A3ACA;
 	margin-right: 1em;
 }
 
@@ -1203,7 +1203,7 @@ body.mode-adaptive {
 .b-article__info .b-article__info-date {
 	float: left;
 	margin: 0 1em 0.5em 0;
-	color: rgb(98, 167, 217);
+	color: #0A3ACA;
 	font-weight: 600;
 }
 
@@ -1809,7 +1809,7 @@ a:focus {
 	text-decoration: none;
 	box-shadow: 0 4px 15px 0 rgba(129, 150, 160, 0.45);
 	border-radius: 5px;
-	background-color: #F15921;
+	background-color: #0A3ACA;
 	background-position: 1.35em .94em;
 	background-size: 1em;
 	background-repeat: no-repeat;
