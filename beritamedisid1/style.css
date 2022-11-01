@@ -1,7 +1,11 @@
+body{
+	font-size: 18px;
+}
+
 html,
 body,
 div,
-span,
+
 h1,
 
 a,
@@ -954,17 +958,22 @@ body.mode-adaptive {
 }
 
 .b-comments .b-comments__button-comment a {
-	background: #0A3ACA;
-	display: inline-block;
-	
-	color: #fff;
-	padding: 0 0.75em 0.19em;
-	line-height: 1.4;
-	cursor: pointer;
-	min-width: 2.5em;
-	text-align: center;
-	position: relative;
-	-moz-user-select: none;
+	 display: inline-block;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: rgb(129 150 160 / 45%) 0px 4px 15px 0px;
+    border-radius: 5px;
+    background-color: rgb(10, 58, 202);
+    background-position: 1.35em 0.94em;
+    background-size: 1em;
+    background-repeat: no-repeat;
+    transition: all 0.15s ease-in-out 0s;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 20px;}
 }
 
 .b-comments .b-comments__button-comment a span {
@@ -1133,9 +1142,7 @@ body.mode-adaptive {
 	margin-left: 0;
 }
 
-.mode-adaptive .b-comments .b-comments__button-comment a {
-	padding: 0.56em 0.75em 0.56em;
-}
+
 
 .mode-adaptive .b-comments .b-comments__button-comment a span {
 	font-size: 0.87em;
@@ -1405,7 +1412,7 @@ body.mode-adaptive {
 }
 
 .substrate {
-	background: #FFECA6;
+	background: #ffe854;
 	padding: 20px;
 	margin-bottom: 20px;
 }
