@@ -14,7 +14,7 @@ li {
 	border: 0 none;
 	font-family: Roboto, sans-serif;
 	font-style: inherit;
-	font-weight: inherit;
+	font-weight: 200;
 	line-height: inherit;
 	font-size-adjust: inherit;
 	font-stretch: inherit;
@@ -1442,7 +1442,7 @@ body.mode-adaptive {
 }
 
 .program_diskon_block {
-	margin: 30px auto;
+	margin: 10px auto;
 	width: 100%;
 	max-width: 650px;
 }
@@ -1471,12 +1471,12 @@ body.mode-adaptive {
 	background: url("") left top no-repeat;
 	font-weight: 700;
 	font-style: italic;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 30px;
 }
 
 .program_diskon_price_block {
-	margin: 30px 0;
+	margin: 0px 0;
 	text-align: center;
 }
 
@@ -1489,9 +1489,10 @@ body.mode-adaptive {
 }
 
 .program_diskon_price_new {
-	font-weight: 700;
-	font-size: 40px;
+	font-weight: bold;
+	font-size: 26px;
 	line-height: 40px;
+
 	color: #F15921;
 }
 
