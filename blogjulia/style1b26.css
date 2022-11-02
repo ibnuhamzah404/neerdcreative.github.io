@@ -1,3 +1,10 @@
+.kotak-produk{
+	background-color: aliceblue;
+	padding : 5px;
+	margin : 10px 0px;
+	border-radius: 5px;
+}
+
 #button-wa {
 	width: max-content;
 	align-items: center;
@@ -8,7 +15,7 @@
     text-decoration: none;
     box-shadow: 0 4px 15px 0 rgb(129 150 160 / 45%);
     border-radius: 5px;
-    background-color: #f2322f;
+    background-color: #3DA7CE;
     background-position: 1.35em 0.94em;
     background-size: 1em;
     background-repeat: no-repeat;
