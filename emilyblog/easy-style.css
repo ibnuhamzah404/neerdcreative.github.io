@@ -12,11 +12,22 @@
 
 
 .button-pack-1{
-	width:  90%;
-	margin : 10px 10px 10px 10px;
-	background-color: blue;
-	display: inline-block;
-	color: white !important	;
-	font-weight: bold;
+	
+                    display: inline-block;
+                    outline: 0;
+                    border: 0;
+                    cursor: pointer;
+                    background-color: #4299e1;
+                    border-radius: 4px;
+                    padding: 10px 20px;
+                    font-size: 20px;
+                    border-bottom: 4px solid #2b6cb0;
+                    font-weight: 700;
+                    color: #fff !important	;
+                    line-height: 26px;
+                    width: 90%;
+
+
+                
 
 }
