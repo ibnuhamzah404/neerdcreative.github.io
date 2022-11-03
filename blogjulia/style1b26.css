@@ -1,5 +1,5 @@
 .kotak-produk{
-	background-color: aliceblue;
+
 	padding : 5px;
 	margin : 10px 0px;
 	border-radius: 5px;
@@ -10,12 +10,13 @@
 	align-items: center;
     display: flex;
     padding: 13px;
-    color: #fff;
+ 
+    background: rgba(0, 0, 0, 0) linear-gradient( 35deg, rgb(98,169,91) 30%, rgb(34,98,42) 70%, rgb(2,82,11));
     font-weight: 700;
     text-decoration: none;
     box-shadow: 0 4px 15px 0 rgb(129 150 160 / 45%);
     border-radius: 5px;
-    background-color: #3DA7CE;
+
     background-position: 1.35em 0.94em;
     background-size: 1em;
     background-repeat: no-repeat;
