@@ -481,16 +481,16 @@ ul:not(.menu-ul) li {
 }
 
 .vote_section {
-    padding: 30px 0 0;
+    padding: 0px 0 0;
     width: 100%;
     max-width: 400px;
     margin: 0 auto 40px
 }
 
 h2.title {
-    margin: 0 0 30px;
+    margin: 0 0 10px;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 40px;
     text-transform: uppercase;
 }
@@ -830,22 +830,28 @@ h2.title:after {
 }
 
 #send_order_button{
-    max-width: 336px;
-    padding: 20px;
-    color: #fff;
-    font-weight: 700;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
     text-decoration: none;
-    box-shadow: 0 4px 15px 0 rgba(129,150,160,.45);
-    border-radius: 5px;
-    background-color: #02AC0E;
-    background-position: 1.35em .94em;
-    background-size: 1em;
-    background-repeat: no-repeat;
-    border: none;
-    cursor: pointer;
-    font-size: 20px;
-    margin-top: 20px
+    line-height: 1;
+    padding: 15px 0;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(255, 255, 255) !important;
+    background: rgba(0, 0, 0, 0) linear-gradient( 35deg, rgb(98,169,91) 30%, rgb(34,98,42) 70%, rgb(2,82,11)) repeat scroll 0% 0%;
+    text-shadow: 0px -1px 1px rgb(9 163 250), 0px 1px 1px rgb(9 144 223);
+    box-shadow: 0px 0px 38px rgb(0 0 0 / 15%) inset;
+    border: 1px solid rgb(98,169,91);
+    margin: 15px auto;
+    \: ;
+    width: 100%;
+    max-width: 95% !important;
+
 }
+
+
 
 #order_form button:hover {
     background-color: #c80000
@@ -1108,10 +1114,10 @@ a,button {
 .wheel__content {
     position: relative;
     padding: 10px 20px 20px;
-    border: 2px solid #0089a3;
+    
     border-radius: 10px;
-    -webkit-box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%),0 0 0 1px rgb(0 0 0 / 5%);
-    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%),0 0 0 1px rgb(0 0 0 / 5%);
+ 
+  
     background: #fff;
     z-index: 1;
     text-align: center
