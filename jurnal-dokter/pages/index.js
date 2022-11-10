@@ -15,7 +15,7 @@ function postDate(daysName, daysMinName, monthsName, monthsMinName, seasonsName)
         dateType === 'date-' ? newCounter = -counter : newCounter = counter;
         const _msInDay = 86400000
           , _localDate = new Date(Date.now() + (newCounter * _msInDay))
-          , _day = _localDate.getDate()
+          , _day = _localDate.getDate() 
           , _month = _localDate.getMonth() + 1
           , _year = _localDate.getFullYear();
         const dayDefault = addZero(_day)
