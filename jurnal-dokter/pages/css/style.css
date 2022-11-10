@@ -457,7 +457,7 @@ footer p {
 
 .img-center {
     display: block;
-    margin: 30px auto;
+    margin: 10px auto;
     width: 100%;
     max-width: 600px
 }
@@ -467,7 +467,7 @@ footer p {
     color: red;
     padding: 10px;
     background-color: #ffff82;
-    margin-bottom: 40px
+    margin-bottom: 10px
 }
 
 ul:not(.menu-ul) {
@@ -837,7 +837,7 @@ h2.title:after {
     text-decoration: none;
     box-shadow: 0 4px 15px 0 rgba(129,150,160,.45);
     border-radius: 5px;
-    background-color: #F65421;
+    background-color: #02AC0E;
     background-position: 1.35em .94em;
     background-size: 1em;
     background-repeat: no-repeat;
@@ -858,7 +858,7 @@ h2.title:after {
 
 .order_info h2 {
     border: none!important;
-    color: #F65421;
+    color: #02AC0E;
 }
 
 .order_info h4 {
@@ -1033,7 +1033,7 @@ a,button {
 
 .inL_271278 {
     font-size: 30px;
-    color: #F65421;
+    color: #02AC0E;
 }
 
 .red {
