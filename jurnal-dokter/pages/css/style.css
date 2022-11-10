@@ -2,6 +2,11 @@
     box-sizing: border-box
 }
 
+.top img{
+    width: 100%;
+    height: auto;
+}
+
 h2,h4,p,ul,ul li {
     margin: 0;
     padding: 0
@@ -47,23 +52,9 @@ header {
     margin-bottom: 15px
 }
 
-header .top {
-    display: flex;
-    align-items: center;
-    background: #0f90fa;
-    height: 120px
-}
 
-header .top .logo {
-    display: block;
-    width: 100%;
-    max-width: 642px;
-    margin: 0 auto;
-    font-size: 40px;
-    font-weight: 700;
-    color: #fff;
-    text-align: center
-}
+
+
 
 .menu {
     display: flex;
@@ -230,7 +221,7 @@ hr {
 .content .image {
     display: block;
     margin: 40px auto;
-    border-top: 5px solid #0f90fa
+   
 }
 
 .content .image.horizontal {
@@ -309,11 +300,8 @@ a {
         margin-bottom:0
     }
 
-    header .top {
-        padding: 15px 20px;
-        min-height: auto;
-        max-height: none
-    }
+
+    
 
     header .top .logo {
         max-width: 320px;
@@ -321,7 +309,7 @@ a {
     }
 
     .content {
-        padding: 30px 15px
+        padding: 10px 15px
     }
 
     .title {
@@ -347,8 +335,8 @@ a {
     }
 
     .content .image {
-        margin: 35px auto;
-        border-top: 4px solid #0f90fa
+        margin: 10px auto;
+        
     }
 
     p {
