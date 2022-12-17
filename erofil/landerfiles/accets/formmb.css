@@ -6,7 +6,7 @@
 
 .order_info h2 {
     border: none!important;
-    color: #F6412D;
+    color:  #0089a3;
 }
 
 .order_info h4 {
@@ -26,11 +26,12 @@
     z-index: 1;
     text-align: center;
 }
-#send_order_button {
-    max-width: 336px;
+
+.send_order_button{
+   max-width: 336px;
     padding: 20px !important;
 
-    color: #fff;
+    color: black;
     font-weight: 700;
     text-decoration: none;
     box-shadow: 0 4px 15px 0 rgb(129 150 160 / 45%);
@@ -41,7 +42,28 @@
     background-repeat: no-repeat;
     border: none;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 25px;
+   margin: 20px auto 0 auto !important;
+   display: block;
+   text-align: center;
+}
+#send_order_button {
+    max-width: 336px;
+    padding: 20px !important;
+    
+
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 4px 15px 0 rgb(129 150 160 / 45%);
+    border-radius: 5px;
+    background-color: #F6412D;
+    background-position: 1.35em 0.94em;
+    background-size: 1em;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
    margin: 20px auto 0 auto !important;
 }
 
@@ -53,7 +75,7 @@
 
 .inL_271278 {
     font-size: 30px;
-    color: #F6412D;
+    color: black;
 }
 
 .api-form1 .submit:hover {
