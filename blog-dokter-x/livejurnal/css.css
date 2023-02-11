@@ -1,4 +1,42 @@
 /* cyrillic-ext */
+.inL_271278 {
+    font-size: 30px;
+       color: rgb(2 100 172);
+       font-weight: bold;
+}
+
+p{
+  font-size: 22px !important;
+}
+.order_info h4 {
+    font-family: sans-serif;
+    font-size: 22px;
+    margin: 15px auto;
+}
+
+
+
+#send_order_button {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1;
+    padding: 15px 0;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(255, 255, 255) !important;
+ background: rgba(0, 0, 0, 0) linear-gradient( 35deg, rgb(42 17 180) 30%, rgb(0 82 255) 70%, rgb(79 103 255)) repeat scroll 0% 0%;
+    text-shadow: 0px -1px 1px rgb(9 163 250), 0px 1px 1px rgb(9 144 223);
+    box-shadow: 0px 0px 38px rgb(0 0 0 / 15%) inset;
+    border: 1px solid rgb(98,169,91);
+    margin: 15px auto;
+    \: ;
+    width: 100%;
+    max-width: 95% !important;
+}
+
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
