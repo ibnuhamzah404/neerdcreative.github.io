@@ -177,6 +177,7 @@ h1 {
 }
 .main-content .content-img img {
     max-width: 100%;
+    margin: 0 auto;
 }
 .main-content .content-txt {
     margin: 20px 0;
@@ -201,9 +202,9 @@ h1 {
 .promo {
     display: block;
     padding: 30px;
-    background: -webkit-gradient(linear, left bottom, left top, from(#2c618b), color-stop(#fff), to(#3574a9));
-    background: -o-linear-gradient(bottom, #2c618b, #fff, #3574a9);
-    background: linear-gradient(to top, #2c618b, #fff, #3574a9);
+  background: linear-gradient(to top, #f8ff00, #fff, #fbff73);
+background: linear-gradient(to top, #f8ff00, #fff, #fbff73);
+    background: linear-gradient(to top, #f8ff00, #fff, #fbff73);
     position: relative;
     max-width: 730px;
     margin: 0 auto;
