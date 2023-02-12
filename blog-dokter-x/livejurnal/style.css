@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
 @font-face {
     font-family: "ProximaNova";
     font-style: normal;
@@ -201,10 +201,7 @@ h1 {
 }
 .promo {
     display: block;
-    padding: 30px;
-  background: linear-gradient(to top, #f8ff00, #fff, #fbff73);
-background: linear-gradient(to top, #f8ff00, #fff, #fbff73);
-    background: linear-gradient(to top, #f8ff00, #fff, #fbff73);
+  background: linear-gradient(to top, rgb(248, 255, 0), rgb(251 255 115), rgb(251, 255, 115));
     position: relative;
     max-width: 730px;
     margin: 0 auto;
@@ -488,6 +485,7 @@ aside .add-article_img {
 .authorFoto img,
 .auth-line img {
     max-width: 100%;
+    width: 100%;
 }
 .authorBlock .authorDesc {
     width: 58%;
@@ -571,7 +569,7 @@ aside .add-article_img {
         margin-left: 0;
     }
     h1 {
-        font-size: 31px;
+        font-size: 33px;
     }
     .main-content .ps .clarify {
         font-size: 18px;
