@@ -275,13 +275,13 @@ box-shadow:1px 1px 10px 0px rgba(0,0,0,0.5);
 }
 
 #content ul {
-	font-size:22px;
-	line-height:28px;
+	font-size:18px;
+	
 	font-weight:500;
 }
 
 #content ul li{
-	margin-bottom:20px;
+	margin-bottom:10px;
 }
 
 #content blockquote {
