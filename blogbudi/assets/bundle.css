@@ -51,16 +51,9 @@ html {
 body {
   background: url(index-1.htm)
     /*tpa=https://hottest-goodies.com/dominator/pre1/css/.*/;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#feffff),
-    color-stop(20%, #ddf1f9),
-    to(#a0d8ef)
-  );
-  background: linear-gradient(#feffff, #ddf1f9 20%, #a0d8ef);
-  background-color: #a0d8ef;
+ 
+
+  background-color: #015e00;
   background-repeat: no-repeat;
   background-size: 100% 71.42857em;
   font-size: 0.875em;
@@ -76,7 +69,7 @@ body {
 h1,
 h2,
 h3 {
-  color: #404040;
+  color: #747272;
   font-weight: 700;
 }
 h2 a,
@@ -392,15 +385,13 @@ i {
   color: #fff;
   border-top: 1px solid #000;
   clear: both;
-  margin-top: 1.42857em;
+ 
 }
 #mplus-footer .footer2 {
   font-size: 0.85714em;
-  padding: 0 1em 0.83333em;
+  
 }
-#mplus-footer .footer2 .address {
-  padding-top: 1.66667em;
-}
+
 #mplus-footer .footer2 .return-top {
   display: none;
   position: fixed;
