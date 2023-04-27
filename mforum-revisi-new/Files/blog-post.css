@@ -45,9 +45,11 @@ li {
 }
 
 .comment-header-text {
-	padding:5px;
-    color: rgb(69, 104, 142);
+    padding: 5px;
+    color: #fcf8e3;
     font-weight: bold;
+    background: #E0004D;
+
 }
 
 .comment-name {
