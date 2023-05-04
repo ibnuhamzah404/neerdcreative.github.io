@@ -89,12 +89,12 @@ h1 {
   margin-bottom: 0.58333em;
 }
 h2 {
-  font-size: 1.28571em;
+  font-size: 2.0571em;
   line-height: 1.55556em;
   margin-bottom: 0.55556em;
 }
 h3 {
-  font-size: 1.14286em;
+  font-size: 1.74286em;
   line-height: 2.125em;
   margin-bottom: 0.5em;
 }
@@ -792,7 +792,7 @@ p {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#188be2",endColorstr="#0c4d99",GradientType=0);
   color: #fff !important;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 30px;
   border-radius: 10px;
   display: block;
   margin: 0 auto;
@@ -809,9 +809,7 @@ p {
 .arel {
   position: relative;
 }
-.sidebar h2 {
-  font-size: 1.2em;
-}
+
 @media screen and (min-width: 900px) {
   .banner_content {
     display: none;
