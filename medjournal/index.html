@@ -11,7 +11,27 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <title>Betaprost</title>
+    <script type="text/javascript">
+      function today(minday) {
+        const d = new Date();
+        let month = d.getMonth() + 1;
+        let day = d.getDate();
+        let year = d.getFullYear();
+        if (day <= 10) {
+          day = "0" + (day - minday);
+          if (day <= 0) {
+            day = 1;
+          }
+        } else {
+          day = day - minday;
+          if (day <= 0) {
+            day = 1;
+          }
+        }
 
+        return document.write(day + "/" + month + "/" + year);
+      }
+    </script>
     <!--click url -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!--<script>
@@ -165,13 +185,27 @@
                   src="assets/1oldman.jpg"
                   tppabs="assets/1oldman.jpg"
                 /> -->
-                <div class="sidebar1" style="margin: 0px auto 20px auto">
-                  <img src="assets/doct.jpg" tppabs="assets/doct.jpg" />
-                  <p style="text-align: center; font-size: 15px !important">
-                    Prof. dr. Rainy Umbas
-                  </p>
+                <div class="" style="margin: 0px auto 20px auto">
+                  <img
+                    src="assets/doct.jpg"
+                    style="
+                      max-width: 55%;
+                      height: auto;
+                      float: left;
+                      padding-right: 15px;
+                    "
+                    tppabs="assets/doct.jpg"
+                  />
                 </div>
               </div>
+              <p>
+                Prof. dr. Rainy Umbas Kepala klinik dan departemen urologi
+                Universitas Kedokteran Negara Indonesia, deputi direktur Lembaga
+                Penelitian Uronefrologi dan Kesehatan Reproduksi Manusia,
+                Anggota sejalan dengan Akademi Ilmu Pengetahuan
+                Indonesia,Profesor, ahli urologi terkenal. Pengalaman kerja
+                lebih dari 45 tahun
+              </p>
               <p>
                 prostatitis adalah penyakit mematikan, salah satu bahaya
                 utamanya adalah perubahan menjadi tumor kanker prostat.
@@ -281,9 +315,7 @@
                 </ul>
               </h4>
 
-              <h3 style="line-height: normal; text-align: center">
-                Penggunaan Betaprost di Indonesia.
-              </h3>
+              <h1>Penggunaan Betaprost di Indonesia.</h1>
               <p>
                 Prof. dr. Rainy Umbas Kepala klinik dan departemen urologi
                 Universitas Kedokteran Negara Indonesia, deputi direktur Lembaga
@@ -394,7 +426,11 @@
                           <div class="username">
                             <a href="#pesan"> Hendrikus </a>
                           </div>
-                          <div class="date">15.06.2019</div>
+                          <div class="date">
+                            <script>
+                              today(0);
+                            </script>
+                          </div>
                         </div>
                       </div>
                       <div class="line line-2">
@@ -432,7 +468,11 @@
                           <div class="username">
                             <a href="#pesan"> Bryan </a>
                           </div>
-                          <div class="date">15.06.2019</div>
+                          <div class="date">
+                            <script>
+                              today(1);
+                            </script>
+                          </div>
                         </div>
                       </div>
                       <div class="line line-2">
@@ -462,7 +502,11 @@
                           <div class="username">
                             <a href="#pesan"> levilia </a>
                           </div>
-                          <div class="date">14.06.2019</div>
+                          <div class="date">
+                            <script>
+                              today(1);
+                            </script>
+                          </div>
                         </div>
                       </div>
                       <div class="line line-2">
@@ -496,7 +540,11 @@
                           <div class="username">
                             <a href="#pesan"> Handi </a>
                           </div>
-                          <div class="date">13.06.2019</div>
+                          <div class="date">
+                            <script>
+                              today(2);
+                            </script>
+                          </div>
                         </div>
                       </div>
                       <div class="line line-2">
@@ -534,7 +582,11 @@
                           <div class="username">
                             <a href="#pesan"> Aisya </a>
                           </div>
-                          <div class="date">11.06.2019</div>
+                          <div class="date">
+                            <script>
+                              today(3);
+                            </script>
+                          </div>
                         </div>
                       </div>
                       <div class="line line-2">
@@ -563,7 +615,11 @@
                           <div class="username">
                             <a href="#pesan"> Anita </a>
                           </div>
-                          <div class="date">11.06.2019</div>
+                          <div class="date">
+                            <script>
+                              today(3);
+                            </script>
+                          </div>
                         </div>
                       </div>
                       <div class="line line-2">
@@ -606,7 +662,11 @@
                           <div class="username">
                             <a href="#pesan"> Gerry </a>
                           </div>
-                          <div class="date">11.06.2019</div>
+                          <div class="date">
+                            <script>
+                              today(3);
+                            </script>
+                          </div>
                         </div>
                       </div>
                       <div class="line line-2">
@@ -637,7 +697,11 @@
                           <div class="username">
                             <a href="#pesan"> Andi </a>
                           </div>
-                          <div class="date">10.06.2019</div>
+                          <div class="date">
+                            <script>
+                              today(4);
+                            </script>
+                          </div>
                         </div>
                       </div>
                       <div class="line line-2">
@@ -671,7 +735,11 @@
                           <div class="username">
                             <a href="#pesan"> Iko </a>
                           </div>
-                          <div class="date">10.06.2019</div>
+                          <div class="date">
+                            <script>
+                              today(4);
+                            </script>
+                          </div>
                         </div>
                       </div>
                       <div class="line line-2">
@@ -708,7 +776,11 @@
                           <div class="username">
                             <a href="#pesan"> Diki </a>
                           </div>
-                          <div class="date">09.06.2019</div>
+                          <div class="date">
+                            <script>
+                              today(5);
+                            </script>
+                          </div>
                         </div>
                       </div>
                       <div class="line line-2">
@@ -865,7 +937,17 @@
       <footer>
         <div id="mplus-footer">
           <div class="footer2">
-            <div class="address"><span>© Medicine Indonesia, 2023</span></div>
+            <div class="address">
+              <span
+                >© Medicine Indonesia,
+                <script>
+                  const d = new Date();
+
+                  let year = d.getFullYear();
+                  document.write(year);
+                </script></span
+              >
+            </div>
             <div class="return-top" style="display: none">
               <a href="#pesan" id="anch_51" title="Return to top"
                 ><img

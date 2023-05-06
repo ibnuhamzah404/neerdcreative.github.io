@@ -755,7 +755,7 @@ a {
   font-weight: 700;
 }
 p {
-  text-align: justify;
+  text-align: left;
 }
 .fl-right {
   float: right;
