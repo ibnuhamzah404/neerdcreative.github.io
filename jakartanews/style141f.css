@@ -1213,9 +1213,8 @@ img.content-ava {
 }
 
 .order-form .price p span {
-  font-size: 21px;
+  font-size: 28px;
   font-weight: 700;
-  color: red;
 }
 
 .order-form .frame {
@@ -1411,7 +1410,7 @@ img.content-ava {
 }
 
 .order-form .price p span.old {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 700;
   color: rgb(178, 178, 178);
   text-decoration: line-through;
