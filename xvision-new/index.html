@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 100%;
+        height: auto;
+      }
+
+      .container img {
+        width: 100%;
+      }
+
+      .mt-10 {
+        margin-top: -15px;
+      }
+
+      .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .swiper-slide img {
+        margin-top: 10px;
+        width: 80%;
+      }
+
+      .container-slider {
+        width: 100%;
+        height: auto;
+        border-radius: 30px 30px 0 0px;
+        background-color: white;
+        margin-top: -10px;
+        box-shadow: 0px 3px 13px 0px rgba(168, 168, 168, 1);
+      }
+
+      .text-influencer {
+        font-family: "Roboto", Sans-serif;
+        font-weight: 900;
+        text-align: center;
+        margin-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      .text-bg {
+        background-color: blue;
+        color: #fff;
+        width: fit-content;
+        padding: 10px;
+        border-radius: 20px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="1.jpeg" alt="" />
+
+      <img class="mt-10" src="4.jpeg" alt="" />
+      <img class="mt-10" src="5.jpeg" alt="" />
+      <img class="mt-10" src="6.jpeg" alt="" />
+      <img class="mt-10" src="3.jpeg" alt="" />
+
+      <img class="mt-10" src="8.jpeg" alt="" />
+      <img class="mt-10" src="9.jpeg" alt="" />
+      <img class="mt-10" src="10.jpeg" alt="" />
+      <div class="container-slider">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide_1">
+              <img class="mt-10" src="11.jpeg" alt="" />
+            </div>
+            <div class="swiper-slide slide_2">
+              <img class="mt-10" src="12.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="text-influencer">
+          <p style="font-size: 18px">INI KATA MEREKA</p>
+          <p class="text-bg" style="font-size: 20px">YANG BERHASIL SEMBUH</p>
+        </div>
+      </div>
+      <img src="13.jpeg" alt="" />
+      <img src="14.jpeg" alt="" />
+      <img src="15.jpeg" alt="" />
+      <img src="16.jpeg" alt="" />
+      <img src="17.jpeg" alt="" />
+      <img class="mt-10" src="18.jpeg" alt="" />
+      <img class="mt-10" src="19.jpeg" alt="" />
+      <img class="mt-10" src="20.jpeg" alt="" />
+      <img class="mt-10" src="7.jpeg" alt="" />
+      <img class="mt-10" src="2.jpeg" alt="" />
+      <img class="mt-10" src="21.jpeg" alt="" />
+      <img class="mt-10" src="22.jpeg" alt="" />
+    </div>
+  </body>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    let swiper = new Swiper(".mySwiper", {
+      loop: true,
+      slidesPerView: 2,
+    });
+  </script>
+</html>
