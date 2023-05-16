@@ -9,6 +9,13 @@
       href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
     />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <!-- INTH_SNIPPET_TOP -->
+    <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
@@ -66,6 +73,45 @@
         border-radius: 20px;
         margin: 0 auto;
       }
+
+      .btn {
+        width: fit-content;
+        height: 50px;
+
+        padding: 5px;
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        font-family: "Roboto", Sans-serif;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 3px 13px 0px rgba(168, 168, 168, 1);
+        border-radius: 10px;
+      }
+
+      .btn-1 {
+        background-color: rgb(17, 3, 141);
+      }
+      .btn-2 {
+        background-color: rgb(12, 88, 5);
+      }
+
+      .form-pesan {
+        width: 100%;
+        height: 150px;
+        border-radius: 30px 30px 0 0px;
+        background-color: white;
+        margin-top: -10px;
+        box-shadow: 0px 3px 13px 0px rgba(168, 168, 168, 1);
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: space-around;
+      }
     </style>
   </head>
   <body>
@@ -107,6 +153,26 @@
       <img class="mt-10" src="7.jpeg" alt="" />
       <img class="mt-10" src="2.jpeg" alt="" />
       <img class="mt-10" src="21.jpeg" alt="" />
+      <div class="form-pesan">
+        <a href="" class="btn btn-1"
+          ><i
+            style="font-size: 40px; margin-right: 5px; vertical-align: sub"
+            class="fab fa-whatsapp"
+          >
+          </i
+          >BELI DENGAN HARGA PROMO</a
+        >
+        <a href="" class="btn btn-2"
+          ><i
+            style="font-size: 40px; margin-right: 5px; vertical-align: sub"
+            class="fab fa-whatsapp"
+          >
+          </i
+          >PENAWARAN PROMO HARI INI</a
+        >
+
+        <!-- <a href="" class="btn btn-2">PENAWARAN PROMO HARI INI</a> -->
+      </div>
       <img class="mt-10" src="22.jpeg" alt="" />
     </div>
   </body>
